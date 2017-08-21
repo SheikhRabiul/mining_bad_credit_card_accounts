@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8"/>
+<noscript>
+	<style type="text/css">
+		#wrapper {display:none;}
+	</style>
+	<h1 align="center" style="color: red"> Please enable Javascript of your browser before you proceed. </h1>
+</noscript>
+<title>Mining bad credit card accounts from OLAP and OLTP</title>
+
+<link rel="stylesheet" type="text/css" href="static/css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(function()
+{   
+	$("#file_upload").click(function() 
+	{
+		if($("#file").val() == "")
+		{
+		 alert("Please select a file to proceed.");
+		 return false;	
+
+		}else{
+
+		document.getElementById("upload_status").innerHTML="";	
+		$("#loading").show();
+		$("#loading").fadeIn(500).html('<img src="../static/images/ajax-loader.gif" align="absmiddle">&nbsp;<span class="loading">Uploading file. Please wait...</span>');
+		var fd = new FormData();
+		var file = new FormData($('#upload-file')[0]);
+		fd.append(file );
+		var from_url = new FormData($('#upload-file')[1]);
+		fd.append(from_url);
+		var form_serial = new FormData($('#upload-file')[1]);
+		fd.append(form_serial);
+	
+		$.ajax({
+		  type: "POST",
+		  url: "/upload_file",
+		  data: fd,
+		  cache: false
+		 });	
+		return false; 
+		
+		}
+		
+	});
+});
+</script>
+
+
+<script type="text/javascript">
+$(function()
+{   
+	$("#file_upload_default").click(function() 
+	{
+
+		document.getElementById("upload_status").innerHTML="";	
+		$("#loading").show();
+		$("#loading").fadeIn(500).html('<img src="../static/images/ajax-loader.gif" align="absmiddle">&nbsp;<span class="loading">Uploading file. Please wait...</span>');
+		var fd = new FormData();
+		var from_url = new FormData($('#upload_file_default')[0]);
+		fd.append(from_url);
+		var form_serial = new FormData($('#upload_file_default')[1]);
+		fd.append(form_serial);
+	
+		$.ajax({
+		  type: "POST",
+		  url: "/upload_file_default",
+		  data: fd,
+		  cache: false
+		 });	
+		return false; 
+		
+		
+	});
+});
+</script>
+
+<script type="text/javascript">
+function openwindow(url,title,w,h)
+{
+	  var left = (screen.width/2)-(w/2);
+	  var top = (screen.height/2)-(h/2);
+	  var targetWin = window.open (url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+
+}
+</script>
+
+</head>
+<body>
+
+<div id='wrapper'>
+	<div id='header'>
+	{% include "header.html" %}
+	</div>
+
+	<div id='content'>
+
+		<br/>
+		<h2> OLTP DATA SET SELECTION  </h2>
+
+		<a href="downloads/dataset_oltp_default.csv">Click here to download sample file <a> <br/> <br/> <br/> 
+
+		<form id="upload-file" action = "/upload_file" method = "POST" enctype = "multipart/form-data">
+		 <input type = "file" name = "file" id="file" />
+		 <input type = "hidden" name = "from_url" value="data_selection_oltp.html" />
+		 <input type = "hidden" name = "form_serial" value="0" />
+		 <input type = "submit" value="Upload" id="file_upload" />
+		</form>
+
+		<br /> OR <br /><br />
+		<form id="upload_file_default" action = "/upload_file_default" method = "POST" enctype = "multipart/form-data">
+		 <input type = "hidden" name = "from_url" value="data_selection_oltp.html" />
+		 <input type = "hidden" name = "form_serial" value="1" />
+		 <input type = "submit" value="Use default file" id="file_upload_default" />
+		</form>
+
+		<br /><br /><br />
+		<div id="loading" align="left"  ></div>
+		<div  id="upload_status">
+		{{message}}
+		</div>
+
+		<br/> <br/> 
+		<a href="javascript:openwindow('view_data/oltp','View Data: OLTP data file',800,500);"> Click here to view stored data <a> <br/> 
+
+		<br />
+		<a href='build_model'> Next : Build Model </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/algorithm_selection'> Previous: Algorithm Selection </a>
+
+	</div>
+
+	<div id='footer'>
+	{% include "footer.html" %}
+	</div>
+	
+</div>
+
+</body>
+</html>

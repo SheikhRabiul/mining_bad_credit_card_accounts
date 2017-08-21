@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8"/>
+<noscript>
+	<style type="text/css">
+		#wrapper {display:none;}
+	</style>
+	<h1 align="center" style="color: red"> Please enable Javascript of your browser before you proceed. </h1>
+</noscript>
+	<title>Mining bad credit card accounts from OLAP and OLTP</title>
+ 	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+	$(function()
+	{   
+		$("#button_1").click(function() 
+		{
+
+			document.getElementById("run_status").innerHTML="";	
+			$("#loading").show();
+			$("#loading").fadeIn(500).html('<img src="../static/images/ajax-loader.gif" align="absmiddle">&nbsp;<span class="loading">Running algorithm on olap data. Please wait...</span>');
+			var fd = new FormData();
+			var from_url = new FormData($('#algorithm_selection_1')[0]);
+			fd.append(from_url);
+			var form_serial = new FormData($('#algorithm_selection_1')[1]);
+			fd.append(form_serial);
+			var algorithm = new FormData($('#algorithm_selection_1')[2]);
+			fd.append(algorithm);
+
+			$.ajax({
+			  type: "POST",
+			  url: "/algorithm_selection_run",
+			  data: fd,
+			  cache: false
+			 });	
+			return false; 
+			
+			
+		});
+	});
+	</script>
+
+	<script type="text/javascript">
+	$(function()
+	{   
+		$("#button_2").click(function() 
+		{
+
+			document.getElementById("run_status").innerHTML="";	
+			$("#loading").show();
+			$("#loading").fadeIn(500).html('<img src="../static/images/ajax-loader.gif" align="absmiddle">&nbsp;<span class="loading">Running algorithm on olap data. Please wait...</span>');
+			var fd = new FormData();
+			var from_url = new FormData($('#algorithm_selection_2')[0]);
+			fd.append(from_url);
+			var form_serial = new FormData($('#algorithm_selection_2')[1]);
+			fd.append(form_serial);
+			var algorithm = new FormData($('#algorithm_selection_2')[2]);
+			fd.append(algorithm);
+
+			$.ajax({
+			  type: "POST",
+			  url: "/algorithm_selection_run",
+			  data: fd,
+			  cache: false
+			 });	
+			return false; 
+			
+			
+		});
+	});
+	</script>
+
+	<script type="text/javascript">
+	$(function()
+	{   
+		$("#button_3").click(function() 
+		{
+
+			document.getElementById("run_status").innerHTML="";	
+			$("#loading").show();
+			$("#loading").fadeIn(500).html('<img src="../static/images/ajax-loader.gif" align="absmiddle">&nbsp;<span class="loading">Running algorithm on olap data. Please wait...</span>');
+			var fd = new FormData();
+			var from_url = new FormData($('#algorithm_selection_3')[0]);
+			fd.append(from_url);
+			var form_serial = new FormData($('#algorithm_selection_3')[1]);
+			fd.append(form_serial);
+			var algorithm = new FormData($('#algorithm_selection_3')[2]);
+			fd.append(algorithm);
+
+			$.ajax({
+			  type: "POST",
+			  url: "/algorithm_selection_run",
+			  data: fd,
+			  cache: false
+			 });	
+			return false; 
+			
+			
+		});
+	});
+	</script>
+	<script type="text/javascript">
+	$(function()
+	{   
+		$("#button_4").click(function() 
+		{
+
+			document.getElementById("run_status").innerHTML="";	
+			$("#loading").show();
+			$("#loading").fadeIn(500).html('<img src="../static/images/ajax-loader.gif" align="absmiddle">&nbsp;<span class="loading">Running algorithm on olap data. Please wait...</span>');
+			var fd = new FormData();
+			var from_url = new FormData($('#algorithm_selection_4')[0]);
+			fd.append(from_url);
+			var form_serial = new FormData($('#algorithm_selection_4')[1]);
+			fd.append(form_serial);
+			var algorithm = new FormData($('#algorithm_selection_4')[2]);
+			fd.append(algorithm);
+
+			$.ajax({
+			  type: "POST",
+			  url: "/algorithm_selection_run",
+			  data: fd,
+			  cache: false
+			 });	
+			return false; 
+			
+			
+		});
+	});
+	</script>
+	<script type="text/javascript">
+	$(function()
+	{   
+		$("#button_5").click(function() 
+		{
+
+			document.getElementById("run_status").innerHTML="";	
+			$("#loading").show();
+			$("#loading").fadeIn(500).html('<img src="../static/images/ajax-loader.gif" align="absmiddle">&nbsp;<span class="loading">Running algorithm on olap data. Please wait...</span>');
+			var fd = new FormData();
+			var from_url = new FormData($('#algorithm_selection_5')[0]);
+			fd.append(from_url);
+			var form_serial = new FormData($('#algorithm_selection_5')[1]);
+			fd.append(form_serial);
+			var algorithm = new FormData($('#algorithm_selection_5')[2]);
+			fd.append(algorithm);
+
+			$.ajax({
+			  type: "POST",
+			  url: "/algorithm_selection_run",
+			  data: fd,
+			  cache: false
+			 });	
+			return false; 
+			
+			
+		});
+	});
+	</script>
+	<script type="text/javascript">
+	$(function()
+	{   
+		$("#button_6").click(function() 
+		{
+
+			document.getElementById("run_status").innerHTML="";	
+			$("#loading").show();
+			$("#loading").fadeIn(500).html('<img src="../static/images/ajax-loader.gif" align="absmiddle">&nbsp;<span class="loading">Running algorithm on olap data. Please wait...</span>');
+			var fd = new FormData();
+			var from_url = new FormData($('#algorithm_selection_6')[0]);
+			fd.append(from_url);
+			var form_serial = new FormData($('#algorithm_selection_6')[1]);
+			fd.append(form_serial);
+			var algorithm = new FormData($('#algorithm_selection_6')[2]);
+			fd.append(algorithm);
+
+			$.ajax({
+			  type: "POST",
+			  url: "/algorithm_selection_run",
+			  data: fd,
+			  cache: false
+			 });	
+			return false; 
+			
+			
+		});
+	});
+	</script>
+	
+	<script type="text/javascript">
+	function openwindow(url,title,w,h)
+	{
+		  var left = (screen.width/2)-(w/2);
+		  var top = (screen.height/2)-(h/2);
+		  var targetWin = window.open (url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+
+	}
+	</script>
+
+<style>
+table.dataframe, .dataframe th, .dataframe td {
+  border: none;
+  border-bottom: 1px solid #C8C8C8;
+  border-collapse: collapse;
+  text-align:left;
+  padding: 10px;
+  margin-bottom: 40px;
+  font-size: 0.9em;
+}
+
+.male th {
+    background-color: #add8e6;
+    color: white;
+}
+
+.female th {
+    background-color: #77dd77;
+    color: white;
+}
+
+tr:nth-child(odd)		{ background-color:#eee; }
+tr:nth-child(even)	{ background-color:#fff; }
+
+tr:hover            { background-color: #ffff99;}
+</style>
+</head>
+<body>
+
+<div id='wrapper'>
+	<div id='header'>
+	{% include "header.html" %}
+	</div>
+
+	<div id='content'>
+		<br />
+		<h2> ALGORITHM SELECTION </h2>
+		
+		Try any algorithm from below to calulate offline risk probability. Result of the latest algorithm run is stored and used in further computations.  <br /> <br />
+		<form id="algorithm_selection_5" action = "/algorithm_selection_run" method = "POST" enctype = "multipart/form-data">
+		 <input type = "hidden" name = "from_url" value="algorithm_selection.html" />
+		 <input type = "hidden" name = "form_serial" value="5" />
+		 <input type = "hidden" name = "algorithm" value="knn" />
+		 <input type = "submit" value="Run: K-Nearest Neighbour" id="button_5" /> 
+		</form>
+		
+		<form id="algorithm_selection_1" action = "/algorithm_selection_run" method = "POST" enctype = "multipart/form-data">
+		 <input type = "hidden" name = "from_url" value="algorithm_selection.html" />
+		 <input type = "hidden" name = "form_serial" value="1" />
+		 <input type = "hidden" name = "algorithm" value="svm" />
+		 <input type = "submit" value="Run : Support Vector Machine" id="button_1" />
+		</form>
+	
+
+		<form id="algorithm_selection_2" action = "/algorithm_selection_run" method = "POST" enctype = "multipart/form-data">
+		 <input type = "hidden" name = "from_url" value="algorithm_selection.html" />
+		 <input type = "hidden" name = "form_serial" value="2" />
+		 <input type = "hidden" name = "algorithm" value="rf" />
+		 <input type = "submit" value="Run: Random Forest" id="button_2" /> 
+		</form>
+		<form id="algorithm_selection_3" action = "/algorithm_selection_run" method = "POST" enctype = "multipart/form-data">
+		 <input type = "hidden" name = "from_url" value="algorithm_selection.html" />
+		 <input type = "hidden" name = "form_serial" value="3" />
+		 <input type = "hidden" name = "algorithm" value="bnb" />
+		 <input type = "submit" value="Run: Naive Bayes" id="button_3" /> 
+		</form>
+		
+		<form id="algorithm_selection_4" action = "/algorithm_selection_run" method = "POST" enctype = "multipart/form-data">
+		 <input type = "hidden" name = "from_url" value="algorithm_selection.html" />
+		 <input type = "hidden" name = "form_serial" value="4" />
+		 <input type = "hidden" name = "algorithm" value="gb" />
+		 <input type = "submit" value="Run: Gradient Boosting" id="button_4" /> 
+		</form>
+		
+		
+		<form id="algorithm_selection_6" action = "/algorithm_selection_run" method = "POST" enctype = "multipart/form-data">
+		 <input type = "hidden" name = "from_url" value="algorithm_selection.html" />
+		 <input type = "hidden" name = "form_serial" value="6" />
+		 <input type = "hidden" name = "algorithm" value="et" />
+		 <input type = "submit" value="Run: Extra Trees Classification" id="button_6" /> 
+		</form>
+		<br />
+		<br />
+		<div id="loading" align="left"  ></div>
+		<div  id="run_status">
+			<div class=page>
+			  {% for table in tables %}
+			   {{titles[loop.index]}} <br /><br />
+			    {{ table|safe }}
+			  {% endfor %}
+		   </div>
+
+		</div>
+		<br />
+		<a href="javascript:openwindow('view_data/result_olap','View Data: algorithm Ranking',800,500);"> Click here to view stored data <a> <br/> 
+
+		<br />
+		<a href='data_selection_oltp'> Next : OLTP data set selection </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='algorithm_selection'> Previous: algorithm Selection </a>
+		
+
+	</div>
+
+	<div id='footer'>
+	{% include "footer.html" %}
+	</div>
+
+</div>
+
+</body>
+</html>
+
+
+
+
