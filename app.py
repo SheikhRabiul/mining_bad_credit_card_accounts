@@ -13,6 +13,8 @@ import sqlite3
 import pandas as pd
 import numpy as np
 import sys,csv
+from io import BytesIO
+
 app = Flask(__name__)
 
 #global config variables
@@ -77,6 +79,38 @@ def downloads(filename):
     
     response = make_response(outdata)
     response.headers["Content-Disposition"] = "attachment; filename=data.csv"
+    return response
+
+# query database and make a output file from result, which is then downloaded as a file in users system.
+@app.route('/downloads_from_db/<table_name>/<save_as>')
+def downloads_from_db(table_name,save_as):
+    outdata=''
+    #db connection
+    conn = sqlite3.connect("databases/credit.sqlite",timeout=10)
+    curr = conn.cursor()
+    result = pd.read_sql_query("select * from "+ table_name +";",conn)
+    
+    #particularly for the table `result`
+    if(table_name=='result'):
+        result.loc[result['class'] == 1,'class'] = "Bad Account"
+        result.loc[result['class'] == 0,'class'] = "Good Account"
+        
+    response=''
+    if(save_as == 'csv'):
+        response = make_response(result.to_csv(encoding='utf-8'))
+        response.headers["Content-Disposition"] = "attachment; filename=data.csv"
+        response.headers["Content-Type"] = "text/csv"
+    elif(save_as =='xlsx'):
+        output = BytesIO()
+        writer = pd.ExcelWriter(output, engine='xlsxwriter')    
+        result.to_excel(writer, startrow = 0, merge_cells = False, sheet_name = "Result")
+        workbook = writer.book
+        worksheet = writer.sheets["Result"]
+        writer.close()
+        output.seek(0)
+        response = make_response(output.getvalue())
+        response.headers["Content-Disposition"] = "attachment; filename=data.xlsx"
+        
     return response
 
 #sample code to send file
@@ -526,7 +560,6 @@ def run_model_action():
         for j in range(len(std_rules)):
             std_id = std_rules.loc[j,'id']
             std_rule = std_rules.loc[j,'rule']
-            events.append(std_rule)
             # need to check whether the transaction follow the std rule
             std_fail=0 
             if tran_type == 'pay':
@@ -602,8 +635,8 @@ def run_model_action():
         offline = (1-lmbda)*(offline*100)
 
         # total risk probability  
-        events_str = '\n'.join(events) #concatenating elements of list, separating by newline
-        causes_str = '\n'.join(causes)
+        events_str = ' , '.join(events) #concatenating elements of list, separating by newline
+        causes_str = ' , '.join(causes)
         total = offline + risk_probability_online
         
         #class, 1=bad account, 0 = good account
@@ -666,7 +699,7 @@ def result_evaluation_action():
 
 # allow any host, allow debug.
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', debug=1)
+    app.run(host='0.0.0.0', debug=0)
 
 
 
