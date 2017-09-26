@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8"/>
+<noscript>
+	<style type="text/css">
+		#wrapper {display:none;}
+	</style>
+	<h1 align="center" style="color: red"> Please enable Javascript of your browser before you proceed. </h1>
+</noscript>
+	<title>Mining bad credit card accounts from OLAP and OLTP</title>
+ 	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	function openwindow(url,title,w,h)
+	{
+	  var left = (screen.width/2)-(w/2);
+	  var top = (screen.height/2)-(h/2);
+	  var targetWin = window.open (url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+
+	}
+	</script>
+		<script type="text/javascript">
+	$(function()
+	{   
+		$("#run_model").click(function() 
+		{
+			document.getElementById("run_status").innerHTML="";	
+			$("#loading").show();
+			$("#loading").fadeIn(500).html('<img src="../static/images/ajax-loader.gif" align="absmiddle">&nbsp;<span class="loading">Running Model. Please wait...</span>');
+			var fd = new FormData();
+			var from_url = new FormData($('#form_run_model')[0]);
+			fd.append(from_url);
+			$.ajax({
+			  type: "POST",
+			  url: "/run_model_action",
+			  data: fd,
+			  cache: false
+			 });	
+			return false; 
+			
+			
+		});
+	});
+	</script>
+	<style>
+	table.dataframe, .dataframe th, .dataframe td {
+	  border: none;
+	  border-bottom: 1px solid #C8C8C8;
+	  border-collapse: collapse;
+	  text-align:left;
+	  padding: 10px;
+	  margin-bottom: 40px;
+	  font-size: 0.9em;
+	}
+
+	.male th {
+		background-color: #add8e6;
+		color: white;
+	}
+
+	.female th {
+		background-color: #77dd77;
+		color: white;
+	}
+
+	tr:nth-child(odd)		{ background-color:#eee; }
+	tr:nth-child(even)	{ background-color:#fff; }
+
+	tr:hover            { background-color: #ffff99;}
+	</style>
+</head>
+<body>
+
+<div id='wrapper'>
+	<div id='header'>
+	{% include "header.html" %}
+	</div>
+
+	<div id='content'>
+		<br />
+		<h2> RUN MODEL</h2>
+		<br/>
+		
+		<form id="form_run_model" action = "/run_model_action" method = "POST" enctype = "multipart/form-data">
+		<input type = "hidden" name = "from_url" value="run_model.html" />		
+		<input type = "submit" value="Run Model" id="run_model" /> 
+		</form>
+		
+		<br />
+		<div id="loading" align="left"  ></div>
+		<div  id="run_status">
+		   <div class=page>
+			  {% for table in tables %}
+			   {{titles[loop.index]}} <br /><br />
+			    {{ table|safe }}
+			  {% endfor %}
+		   </div>
+
+		</div>
+		<a href='/downloads_from_db/result/csv'> Save results as csv file </a>
+		<br />
+		<a href='/downloads_from_db/result/xlsx'> Save results as excel file </a> 
+		<br />
+		<a href='result_evaluation'> Next : Result evaluation </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='build_model'> Previous: Build model </a>
+	</div>
+
+	<div id='footer'>
+	{% include "footer.html" %}
+	</div>
+	
+</div>
+
+</body>
+</html>

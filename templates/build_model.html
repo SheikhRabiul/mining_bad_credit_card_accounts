@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8"/>
+<noscript>
+	<style type="text/css">
+		#wrapper {display:none;}
+	</style>
+	<h1 align="center" style="color: red"> Please enable Javascript of your browser before you proceed. </h1>
+</noscript>
+	<title>Mining bad credit card accounts from OLAP and OLTP</title>
+ 	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	function openwindow(url,title,w,h)
+	{
+	  var left = (screen.width/2)-(w/2);
+	  var top = (screen.height/2)-(h/2);
+	  var targetWin = window.open (url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+
+	}
+	</script>
+		<script type="text/javascript">
+	$(function()
+	{   
+		$("#build_model").click(function() 
+		{
+			document.getElementById("run_status").innerHTML="";	
+			$("#loading").show();
+			$("#loading").fadeIn(500).html('<img src="../static/images/ajax-loader.gif" align="absmiddle">&nbsp;<span class="loading">Building Model. Please wait...</span>');
+			var fd = new FormData();
+			var from_url = new FormData($('#form_build_model')[0]);
+			fd.append(from_url);
+			$.ajax({
+			  type: "POST",
+			  url: "/build_model_action",
+			  data: fd,
+			  cache: false
+			 });	
+			return false; 
+			
+			
+		});
+	});
+	</script>
+</head>
+<body>
+
+<div id='wrapper'>
+	<div id='header'>
+	{% include "header.html" %}
+	</div>
+
+	<div id='content'>
+		<br />
+		<h2> BUILD MODEL</h2>
+		Review available configurations,rules and parameter settings before building the model. If you need to apply different rules just add them in respective table of the database. <br />	<br />
+		<a href="javascript:openwindow('view_data/std_rules/id','View Data:Standard Transaction Rules',800,500);"> Standard Transaction Testing Rules <a> <br/> 
+		<a href="javascript:openwindow('view_data/adt_rules/id','View Data:Adaptive Testing Rules',800,500);"> Adaptive Testing Rules <a> <br/> 
+		<a href="javascript:openwindow('view_data/std_adt_mapping/id','View Data:Standard Transaction Rules',800,500);"> Standard Transaction Test Rules and Adapt Test Rules Mapping <a> <br/> 		
+		<a href="javascript:openwindow('view_data/feature_ranking/index','View Data:Feature Ranking',800,500);"> Feature Ranking <a> <br/>
+		<a href="javascript:openwindow('view_data/adt_rules_feature_ranking_mapping/id','View Data:Feature Ranking',800,500);"> Adaptive Rules and Feature Ranking Mapping <a> <br/>
+		<a href="javascript:openwindow('view_data/config/id','View Data:Config',800,500);"> Global config <a> <br/>
+		<a href="javascript:openwindow('view_data/result_olap/index','View Data:Offline risk probability from OLAP data',800,500);"> Offline risk probability from OLAP data <a> <br/>
+		<br />
+		<form id="form_build_model" action = "/build_model_action" method = "POST" enctype = "multipart/form-data">
+		<input type = "hidden" name = "from_url" value="build_model.html" />		
+		<input type = "submit" value="Build Model" id="build_model" /> 
+		</form>
+		
+		<br />
+		<div id="loading" align="left"  ></div>
+		<div  id="run_status">
+			{{message}}
+
+		</div>
+		
+		<br />
+		<a href='run_model'> Next : Run model </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='data_selection_oltp'> Previous: OLTP data set selection </a>
+	</div>
+
+	<div id='footer'>
+	{% include "footer.html" %}
+	</div>
+	
+</div>
+
+</body>
+</html>

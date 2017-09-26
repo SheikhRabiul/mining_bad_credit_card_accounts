@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8"/>
+<noscript>
+	<style type="text/css">
+		#wrapper {display:none;}
+	</style>
+	<h1 align="center" style="color: red"> Please enable Javascript of your browser before you proceed. </h1>
+</noscript>
+	<title>Mining bad credit card accounts from OLAP and OLTP</title>
+ 	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	function openwindow(url,title,w,h)
+	{
+	  var left = (screen.width/2)-(w/2);
+	  var top = (screen.height/2)-(h/2);
+	  var targetWin = window.open (url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+
+	}
+	</script>
+		<script type="text/javascript">
+	$(function()
+	{   
+		$("#button_analyze_results").click(function() 
+		{
+			document.getElementById("run_status").innerHTML="";	
+			$("#loading").show();
+			$("#loading").fadeIn(500).html('<img src="../static/images/ajax-loader.gif" align="absmiddle">&nbsp;<span class="loading">Analyzing Results. Please wait...</span>');
+			var fd = new FormData();
+			var from_url = new FormData($('#form_analyze_results')[0]);
+			fd.append(from_url);
+			$.ajax({
+			  type: "POST",
+			  url: "/result_evaluation_action",
+			  data: fd,
+			  cache: false
+			 });	
+			return false; 
+			
+			
+		});
+	});
+	</script>
+	<style>
+	table.dataframe, .dataframe th, .dataframe td {
+	  border: none;
+	  border-bottom: 1px solid #C8C8C8;
+	  border-collapse: collapse;
+	  text-align:left;
+	  padding: 10px;
+	  margin-bottom: 40px;
+	  font-size: 0.9em;
+	}
+
+	tr:nth-child(odd)		{ background-color:#eee; }
+	tr:nth-child(even)	{ background-color:#fff; }
+
+	tr:hover            { background-color: #ffff99;}
+	</style>
+</head>
+<body>
+
+<div id='wrapper'>
+	<div id='header'>
+	{% include "header.html" %}
+	</div>
+
+	<div id='content'>
+		<br />
+		<h2> RESULT EVALUATION </h2>
+		<br />
+		
+		<br />
+		<form id="form_analyze_results" action = "/result_evaluation_action" method = "POST" enctype = "multipart/form-data">
+		<input type = "hidden" name = "from_url" value="result_evaluation.html" />		
+		<input type = "submit" value="Analyze Results" id="button_analyze_results" /> 
+		</form>
+		<br/> 
+		<a href="javascript:openwindow('view_data/result/index','View Data:Result',800,500);"> View Final Result <a> <br/> 
+		<br />
+		
+		<div  id="run_status">
+			<a href='/downloads_from_db/result/csv'> Save final results as csv file </a>
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href='/downloads_from_db/result/xlsx'> Save final results as excel file </a>
+			<br /><br />
+		   <div class=page>
+			  {% for table in tables %}
+			   {{titles[loop.index]}} <br /><br />
+			    {{ table|safe }}
+			  {% endfor %}
+		   </div>
+					<style>
+					body {
+						font-size: 12px;
+					}
+
+					.axis path,
+					.axis line {
+						fill: none;
+						stroke: #000;
+						shape-rendering: crispEdges;
+					}
+
+					.bar {
+						fill: steelblue;
+					}
+
+					.x.axis path {
+						display: none;
+					}
+				</style>
+					<script src="//d3js.org/d3.v3.min.js"></script>
+				<script>
+					function getTextWidth(text, fontSize, fontName) {
+						c = document.createElement("canvas");
+						ctx = c.getContext("2d");
+						ctx.font = fontSize + ' ' + fontName;
+						return ctx.measureText(text).width;
+					}
+
+					function DataSegregator(array, on) {
+						var SegData;
+						OrdinalPositionHolder = {
+							valueOf: function () {
+								thisObject = this;
+								keys = Object.keys(thisObject);
+								keys.splice(keys.indexOf("valueOf"), 1);
+								keys.splice(keys.indexOf("keys"), 1);
+								return keys.length == 0 ? -1 : d3.max(keys, function (d) { return thisObject[d] })
+							}
+							, keys: function () {
+								keys = Object.keys(thisObject);
+								keys.splice(keys.indexOf("valueOf"), 1);
+								keys.splice(keys.indexOf("keys"), 1);
+								return keys;
+							}
+						}
+						array[0].map(function (d) { return d[on] }).forEach(function (b) {
+							value = OrdinalPositionHolder.valueOf();
+							OrdinalPositionHolder[b] = OrdinalPositionHolder > -1 ? ++value : 0;
+						})
+
+						SegData = OrdinalPositionHolder.keys().map(function () {
+							return [];
+						});
+
+						array.forEach(function (d) {
+							d.forEach(function (b) {
+								SegData[OrdinalPositionHolder[b[on]]].push(b);
+							})
+						});
+
+						return SegData;
+					}
+
+			
+					var Data = {{ data|safe }}
+
+					var margin = { top: 20, right: 30, bottom: 60, left: 240 },
+						width = 960 - margin.left - margin.right,
+						height = 500 - margin.top - margin.bottom;
+
+					var textWidthHolder = 0;
+					/// Adding Date in LineCategory
+					Data.forEach(function (d) {
+						d.LineCategory.forEach(function (b) {
+							b.Date = d.Date;
+						})
+					});
+
+
+
+
+					var Categories = new Array();
+					// Extension method declaration
+
+					Categories.pro
+
+					var Data;
+					var ageNames;
+					var x0 = d3.scale.ordinal()
+						.rangeRoundBands([0, width], .1);
+					var XLine = d3.scale.ordinal()
+						.rangeRoundPoints([0, width], .1);
+					var x1 = d3.scale.ordinal();
+
+					var y = d3.scale.linear()
+						.range([height, 0]);
+
+					var YLine = d3.scale.linear().range([height, 0])
+					.domain([0,100]);
+
+					var color = d3.scale.ordinal()
+						.range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+
+					var line = d3.svg.line().x(function (d) {
+						return x0(d.Date) + x0.rangeBand() / 2;
+					}).y(function (d) { return YLine(d.Value) });
+
+
+
+
+					var xAxis = d3.svg.axis()
+						.scale(x0)
+						.orient("bottom");
+
+					var yAxis = d3.svg.axis()
+						.scale(y)
+						.orient("left")
+						.tickFormat(d3.format(".2s"));
+
+					var YLeftAxis = d3.svg.axis().scale(YLine).orient("right").tickFormat(d3.format(".2s"));
+
+					var svg = d3.select("body").append("svg")
+						.attr("width", width + margin.left + margin.right)
+						.attr("height", height + margin.top + margin.bottom)
+					  .append("g")
+						.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+
+
+
+					// Bar Data categories
+					Data.forEach(function (d) {
+						d.Categories.forEach(function (b) {
+							if (Categories.findIndex(function (c) { return c.Name===b.Name}) == -1) {
+								b.Type = "bar";
+								console.log(JSON.stringify(b))
+								Categories.push(b)
+							}
+						})
+					});
+
+
+					// Line Data categories
+					Data.forEach(function (d) {
+						d.LineCategory.forEach(function (b) {
+							if (Categories.findIndex(function (c) { return c.Name === b.Name }) == -1) {
+								b.Type = "line";
+								console.log(JSON.stringify(b))
+								Categories.push(b)
+							}
+						})
+					});
+
+					// Processing Line data
+					lineData = DataSegregator(Data.map(function (d) { return d.LineCategory }), "Name");
+
+					// Line Coloring
+					LineColor = d3.scale.ordinal();
+					LineColor.domain(Categories.filter(function (d) { return d.Type == "line" }).map(function (d) { return d.Name }));
+					LineColor.range(["#d40606", "#06bf00", "#98bdc5", "#671919", "#0b172b"])
+					x0.domain(Data.map(function (d) { return d.Date; }));
+					XLine.domain(Data.map(function (d) { return d.Date; }));
+					x1.domain(Categories.filter(function (d) { return d.Type == "bar" }).map(function (d) { return d.Name})).rangeRoundBands([0, x0.rangeBand()]);
+					y.domain([0, d3.max(Data, function (d) { return d3.max(d.Categories, function (d) { return d.Value; }); })]);
+
+					svg.append("g")
+						.attr("class", "x axis")
+						.attr("transform", "translate(0," + height + ")")
+						.call(xAxis);
+
+					svg.append("g")
+					   .attr("class", "y axis")
+						.attr("transform", "translate(" + (width) + ",0)")
+					   .call(YLeftAxis)
+
+					 .append("text")
+					   .attr("transform", "rotate(-90)")
+					   .attr("y", -15)
+
+					   .attr("dy", ".71em")
+					   .style("text-anchor", "end")
+					   .text("Risk Threshold");
+
+					svg.append("g")
+						.attr("class", "y axis")
+						.call(yAxis)
+					  .append("text")
+						.attr("transform", "rotate(-90)")
+						.attr("y", 6)
+						.attr("dy", ".71em")
+						.style("text-anchor", "end")
+						.text("Risk Probability");
+
+
+					var state = svg.selectAll(".state")
+						.data(Data)
+					  .enter().append("g")
+						.attr("class", "state")
+						.attr("transform", function (d) { return "translate(" + x0(d.Date) + ",0)"; });
+
+					state.selectAll("rect")
+						.data(function (d) { return d.Categories; })
+					  .enter().append("rect")
+						.attr("width", x1.rangeBand())
+						.attr("x", function (d) { return x1(d.Name); })
+						.attr("y", function (d) { return y(d.Value); })
+						//.attr("height", function (d) { return height - y(d.Value); })
+						.style("fill", function (d) { return color(d.Name); })
+						.transition().delay(500).attrTween("height", function (d) {
+							var i = d3.interpolate(0, height - y(d.Value));
+							return function (t)
+							{
+								return i(t);
+							}
+						});
+
+					// drawaing lines
+					svg.selectAll(".lines").data(lineData).enter().append("g").attr("class", "line")
+					.each(function (d) {
+						Name=d[0].Name
+						d3.select(this).append("path").attr("d", function (b) { return line(b) }).style({ "stroke-width": "2px", "fill": "none" }).style("stroke", LineColor(Name)).transition().duration(1500);
+					})
+
+
+					// Legends
+
+					var LegendHolder = svg.append("g").attr("class", "legendHolder");
+					var legend = LegendHolder.selectAll(".legend")
+						.data(Categories.map(function (d) { return {"Name":d.Name,"Type":d.Type}}))
+					  .enter().append("g")
+						.attr("class", "legend")
+						.attr("transform", function (d, i) { return "translate(0," +( height+ margin.bottom/2 )+ ")"; })
+						.each(function (d,i) {
+							//  Legend Symbols
+
+
+							d3.select(this).append("rect")
+							.attr("width", function () { return 18 })
+							.attr("x", function (b) {
+
+								left = (i+1) * 15 + i * 18 + i * 5 + textWidthHolder;
+								return left;
+							})
+							 .attr("y", function (b) { return b.Type == 'bar'?0:7})
+							.attr("height", function (b) { return b.Type== 'bar'? 18:5 })
+							.style("fill", function (b) { return b.Type == 'bar' ? color(d.Name) : LineColor(d.Name) });
+
+							//  Legend Text
+
+							d3.select(this).append("text")
+							.attr("x", function (b) {
+
+								left = (i+1) * 15 + (i+1) * 18 + (i + 1) * 5 + textWidthHolder;
+
+								return left;
+							})
+							.attr("y", 9)
+							.attr("dy", ".35em")
+							.style("text-anchor", "start")
+							.text(d.Name);
+
+							textWidthHolder += getTextWidth(d.Name, "10px", "calibri");
+						});
+
+
+					// Legend Placing
+
+					d3.select(".legendHolder").attr("transform", function (d) {
+						thisWidth = d3.select(this).node().getBBox().width;
+						return "translate(" + ((width) / 2 - thisWidth / 2) + ",0)";
+					})
+
+
+				</script>
+				<p> The accounts for which the bar crosses the red line in the graph below are bad accounts. For cleaner view only first 25 accounts are showned in the graph.</p>
+		</div>
+		<br />
+		<a href='/'> Home </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='run_model'> Previous: Run model </a>
+		
+	</div>
+
+	<div id='footer'>
+	{% include "footer.html" %}
+	</div>
+	
+</div>
+
+</body>
+</html>

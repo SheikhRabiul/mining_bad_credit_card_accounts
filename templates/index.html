@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8"/>
+<noscript>
+	<style type="text/css">
+		#wrapper {display:none;}
+	</style>
+	<h1 align="center" style="color: red"> Please enable Javascript of your browser before you proceed. </h1>
+</noscript>
+	<title>Mining bad credit card accounts from OLAP and OLTP</title>
+ 	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div id='wrapper'>
+	<div id='header'>
+	{% include "header.html" %}
+	</div>
+
+	<div id='content'>
+		<br/>
+		<h2> HOME </h2>
+		<p> This is a web interface for the research work titled "Mining bad credit card accounts from OLAP and OLTP system". The mining process has 7 steps. You can <a href='data_selection'>start here </a> or you can jump/resume to any section below with previously loaded or processed or default dataset.</p>
+
+		<ul>
+			<ol> <a href='data_selection'>1. OLAP dataset selection </a> </ol>
+			<ol> <a href='feature_selection'>2. Feature selection </a> </ol>
+			<ol> <a href='algorithm_selection'>3. Algorithm selection </a> </ol>
+			<ol> <a href='data_selection_oltp'>4. OLTP dataset selection </a> </ol>
+			<ol> <a href='build_model'>5. Build model </a> </ol>
+			<ol> <a href='run_model'>6. Run model </a> </ol>
+			<ol> <a href='result_evaluation'>7. Result evaluation </a> </ol>
+		</ul>
+
+			<a href='data_selection'>Start here </a>
+	</div>
+
+	<div id='footer'>
+	{% include "footer.html" %}
+	</div>
+	
+</div>
+
+</body>
+</html>
