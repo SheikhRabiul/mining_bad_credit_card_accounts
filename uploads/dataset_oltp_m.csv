@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 account,amount,location,date,tid,transaction_type
 1,38.85,FL,2017-08-04,1,exp
 2,38.85,GA,2017-08-04,2,pay
@@ -8,4 +9,16 @@ account,amount,location,date,tid,transaction_type
 7,25.9,VA,2017-08-04,7,exp
 8,38.85,DC,2017-08-04,8,pay
 9,12.95,FL,2017-08-04,9,exp
+=======
+account,amount,location,date,tid,transaction_type
+1,38.85,FL,2017-08-04,1,exp
+2,38.85,GA,2017-08-04,2,pay
+3,12.95,CA,2017-08-04,3,exp
+4,12.95,VA,2017-08-04,4,pay
+5,12.95,CA,2017-08-04,5,exp
+6,12.95,VA,2017-08-04,6,pay
+7,25.9,VA,2017-08-04,7,exp
+8,38.85,DC,2017-08-04,8,pay
+9,12.95,FL,2017-08-04,9,exp
+>>>>>>> df9bbfd486fd1721ef9aa82f490911ce4a35d67d
 10,12.95,NH,2017-08-04,10,pay

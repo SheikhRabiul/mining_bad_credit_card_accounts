@@ -91,16 +91,28 @@ def downloads_from_db(table_name,save_as):
     result = pd.read_sql_query("select * from "+ table_name +";",conn)
     
     #particularly for the table `result`
+<<<<<<< HEAD
     if table_name=='result':
+=======
+    if(table_name=='result'):
+>>>>>>> df9bbfd486fd1721ef9aa82f490911ce4a35d67d
         result.loc[result['class'] == 1,'class'] = "Bad Account"
         result.loc[result['class'] == 0,'class'] = "Good Account"
         
     response=''
+<<<<<<< HEAD
     if save_as == 'csv':
         response = make_response(result.to_csv(encoding='utf-8'))
         response.headers["Content-Disposition"] = "attachment; filename=data.csv"
         response.headers["Content-Type"] = "text/csv"
     elif save_as =='xlsx':
+=======
+    if(save_as == 'csv'):
+        response = make_response(result.to_csv(encoding='utf-8'))
+        response.headers["Content-Disposition"] = "attachment; filename=data.csv"
+        response.headers["Content-Type"] = "text/csv"
+    elif(save_as =='xlsx'):
+>>>>>>> df9bbfd486fd1721ef9aa82f490911ce4a35d67d
         output = BytesIO()
         writer = pd.ExcelWriter(output, engine='xlsxwriter')    
         result.to_excel(writer, startrow = 0, merge_cells = False, sheet_name = "Result")

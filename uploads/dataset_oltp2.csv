@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 id,account,amount,Location,Country,Time,tid,transaction_type
 1,1,0.99,"b'Brighton, Colorado'",US,2016-11-24T03:41:19.000Z,1,exp
 2,2,1,"b'Whitefish, Montana'",US,2016-11-24T03:47:06.000Z,2,exp
@@ -1397,3 +1398,1404 @@ id,account,amount,Location,Country,Time,tid,transaction_type
 1396,1396,11,"b'Oxnard, California'",US,2016-11-24T05:24:46.000Z,1396,exp
 1397,1397,27.99,"b'Pacoima, California'",US,2016-11-24T05:24:54.000Z,1397,exp
 1398,1398,87.13,"b'Hinckley, Ohio'",US,2016-11-24T05:24:56.000Z,1398,exp
+=======
+id,account,amount,Location,Country,Time,tid,transaction_type
+1,1,0.99,"b'Brighton, Colorado'",US,2016-11-24T03:41:19.000Z,1,exp
+2,2,1,"b'Whitefish, Montana'",US,2016-11-24T03:47:06.000Z,2,exp
+3,3,1,"b'Tulsa, Oklahoma'",US,2016-11-24T03:51:02.000Z,3,exp
+4,4,1.49,"b'Martins Ferry, Ohio'",US,2016-11-24T03:38:20.000Z,4,exp
+5,5,1.49,"b'Martins Ferry, Ohio'",US,2016-11-24T03:52:25.000Z,5,exp
+6,6,1.5,"b'Whitefish, Montana'",US,2016-11-24T03:40:48.000Z,6,exp
+7,7,1.98,"b'Olympia, Washington'",US,2016-11-24T03:45:40.000Z,7,exp
+8,8,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T03:57:13.000Z,8,exp
+9,9,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T03:57:15.000Z,9,exp
+10,10,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T03:57:21.000Z,10,exp
+11,11,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T03:57:23.000Z,11,exp
+12,12,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T03:58:53.000Z,12,exp
+13,13,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T03:38:43.000Z,13,exp
+14,14,1.99,"b'Clearwater, Florida'",US,2016-11-24T04:10:08.000Z,14,exp
+15,15,1.99,"b'Scottsville, Virginia'",US,2016-11-24T04:10:48.000Z,15,exp
+16,16,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T03:38:47.000Z,16,exp
+17,17,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T03:38:49.000Z,17,exp
+18,18,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T03:38:58.000Z,18,exp
+19,19,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T03:39:01.000Z,19,exp
+20,20,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T03:39:02.000Z,20,exp
+21,21,2,"b'Orlando, Florida'",US,2016-11-24T03:58:22.000Z,21,exp
+22,22,2,"b'South Range, Wisconsin'",US,2016-11-24T04:06:38.000Z,22,exp
+23,23,2,"b'Orlando, Florida'",US,2016-11-24T04:09:49.000Z,23,exp
+24,24,2,"b'Whitefish, Montana'",US,2016-11-24T03:43:47.000Z,24,exp
+25,25,2.1,"b'Spartanburg, South Carolina'",US,2016-11-24T03:56:56.000Z,25,exp
+26,26,2.25,"b'Vancouver, Washington'",US,2016-11-24T04:06:46.000Z,26,exp
+27,27,2.45,"b'San Jose, California'",US,2016-11-24T04:00:00.000Z,27,exp
+28,28,2.5,"b'Oxnard, California'",US,2016-11-24T03:57:12.000Z,28,exp
+29,29,2.5,"b'Oxnard, California'",US,2016-11-24T04:00:56.000Z,29,exp
+30,30,2.5,"b'Oxnard, California'",US,2016-11-24T03:55:20.000Z,30,exp
+31,31,2.53,"b'Chicago, Illinois'",US,2016-11-24T03:56:39.000Z,31,exp
+32,32,3,"b'Mexico, Missouri'",US,2016-11-24T03:51:44.000Z,32,exp
+33,33,3,"b'Tulsa, Oklahoma'",US,2016-11-24T03:56:34.000Z,33,exp
+34,34,3.29,"b'Cary, North Carolina'",US,2016-11-24T04:03:23.000Z,34,exp
+35,35,3.59,"b'Chesapeake, Virginia'",US,2016-11-24T03:48:36.000Z,35,exp
+36,36,3.99,"b'Anaheim, California'",US,2016-11-24T03:38:51.000Z,36,exp
+37,37,3.99,"b'Woodbridge, Virginia'",US,2016-11-24T03:48:46.000Z,37,exp
+38,38,4.7,"b'Calhoun, Georgia'",US,2016-11-24T04:06:50.000Z,38,exp
+39,39,4.99,"b'Las Vegas, Nevada'",US,2016-11-24T04:02:06.000Z,39,exp
+40,40,4.99,"b'San Diego, California'",US,2016-11-24T04:10:42.000Z,40,exp
+41,41,4.99,"b'San Diego, California'",US,2016-11-24T04:10:42.000Z,41,exp
+42,42,4.99,"b'San Diego, California'",US,2016-11-24T04:10:42.000Z,42,exp
+43,43,4.99,"b'San Diego, California'",US,2016-11-24T04:10:43.000Z,43,exp
+44,44,4.99,"b'Lexington, Kentucky'",US,2016-11-24T03:45:34.000Z,44,exp
+45,45,4.99,"b'Northville, Michigan'",US,2016-11-24T03:47:43.000Z,45,exp
+46,46,4.99,"b'Redmond, Oregon'",US,2016-11-24T03:54:22.000Z,46,exp
+47,47,5,"b'Tulsa, Oklahoma'",US,2016-11-24T03:59:28.000Z,47,exp
+48,48,5,"b'Tulsa, Oklahoma'",US,2016-11-24T03:59:28.000Z,48,exp
+49,49,5,"b'Tulsa, Oklahoma'",US,2016-11-24T03:59:28.000Z,49,exp
+50,50,5,"b'Tulsa, Oklahoma'",US,2016-11-24T03:59:29.000Z,50,exp
+51,51,5,"b'Tulsa, Oklahoma'",US,2016-11-24T03:59:29.000Z,51,exp
+52,52,5,"b'Sugar Land, Texas'",US,2016-11-24T03:45:03.000Z,52,exp
+53,53,5.99,"b'Lexington, Kentucky'",US,2016-11-24T03:46:26.000Z,53,exp
+54,54,6.24,"b'Caledonia, New York'",US,2016-11-24T03:40:31.000Z,54,exp
+55,55,6.41,"b'Cary, North Carolina'",US,2016-11-24T03:44:44.000Z,55,exp
+56,56,6.53,"b'Bard, California'",US,2016-11-24T04:01:25.000Z,56,exp
+57,57,6.64,"b'South El Monte, California'",US,2016-11-24T04:06:37.000Z,57,exp
+58,58,6.75,"b'Chesapeake, Virginia'",US,2016-11-24T04:08:07.000Z,58,exp
+59,59,6.95,"b'Brownsville, Texas'",US,2016-11-24T04:00:51.000Z,59,exp
+60,60,6.95,"b'Lake Worth, Florida'",US,2016-11-24T03:46:49.000Z,60,exp
+61,61,6.97,"b'Dayton, Ohio'",US,2016-11-24T03:42:17.000Z,61,exp
+62,62,6.99,"b'Berlin, Maryland'",US,2016-11-24T03:38:15.000Z,62,exp
+63,63,6.99,"b'Calimesa, California'",US,2016-11-24T04:05:04.000Z,63,exp
+64,64,6.99,"b'Calimesa, California'",US,2016-11-24T04:08:51.000Z,64,exp
+65,65,6.99,"b'Dothan, Alabama'",US,2016-11-24T03:44:18.000Z,65,exp
+66,66,7,"b'Tulsa, Oklahoma'",US,2016-11-24T03:59:29.000Z,66,exp
+67,67,7,"b'Raleigh, North Carolina'",US,2016-11-24T04:04:26.000Z,67,exp
+68,68,7.25,"b'Dayton, Ohio'",US,2016-11-24T03:42:18.000Z,68,exp
+69,69,7.44,"b'Dayton, Ohio'",US,2016-11-24T03:46:39.000Z,69,exp
+70,70,7.8,"b'West Warwick, Rhode Island'",US,2016-11-24T03:53:11.000Z,70,exp
+71,71,7.8,"b'West Warwick, Rhode Island'",US,2016-11-24T03:53:12.000Z,71,exp
+72,72,7.95,"b'Irvine, California'",US,2016-11-24T04:02:26.000Z,72,exp
+73,73,7.95,"b'Irvine, California'",US,2016-11-24T04:03:50.000Z,73,exp
+74,74,7.95,"b'Lakewood, New York'",US,2016-11-24T04:04:34.000Z,74,exp
+75,75,7.95,"b'Irvine, California'",US,2016-11-24T04:05:08.000Z,75,exp
+76,76,7.95,"b'The Finger Lakes, NY'",US,2016-11-24T03:40:23.000Z,76,exp
+77,77,7.99,"b'Northville, Michigan'",US,2016-11-24T03:38:24.000Z,77,exp
+78,78,7.99,"b'Martins Ferry, Ohio'",US,2016-11-24T04:00:47.000Z,78,exp
+79,79,7.99,b'California',US,2016-11-24T03:39:15.000Z,79,exp
+80,80,7.99,"b'Lexington, Kentucky'",US,2016-11-24T03:42:05.000Z,80,exp
+81,81,8,"b'Kinzers, Pennsylvania'",US,2016-11-24T04:00:15.000Z,81,exp
+82,82,8.95,"b'Lakewood, New York'",US,2016-11-24T04:01:43.000Z,82,exp
+83,83,8.95,"b'Plainsboro, New Jersey'",US,2016-11-24T03:41:46.000Z,83,exp
+84,84,8.95,"b'The Finger Lakes, NY'",US,2016-11-24T03:45:25.000Z,84,exp
+85,85,8.95,"b'Lakewood, New York'",US,2016-11-24T03:52:02.000Z,85,exp
+86,86,8.99,"b'Rock Hill, South Carolina'",US,2016-11-24T03:38:01.000Z,86,exp
+87,87,8.99,"b'Rock Hill, South Carolina'",US,2016-11-24T03:40:16.000Z,87,exp
+88,88,8.99,"b'Rock Hill, South Carolina'",US,2016-11-24T03:40:16.000Z,88,exp
+89,89,8.99,"b'Claudville, Virginia'",US,2016-11-24T03:43:17.000Z,89,exp
+90,90,9,"b'Atascadero, California'",US,2016-11-26T03:00:01.000Z,90,exp
+91,91,9.78,"b'Dayton, Ohio'",US,2016-11-24T03:46:38.000Z,91,exp
+92,92,9.79,b'US',US,2016-11-24T03:44:58.000Z,92,exp
+93,93,9.85,"b'Mount Dora, Florida'",US,2016-11-24T03:50:10.000Z,93,exp
+94,94,9.9,"b'Montclair, California'",US,2016-11-24T03:49:38.000Z,94,exp
+95,95,9.95,"b'The Finger Lakes, NY'",US,2016-11-24T03:38:53.000Z,95,exp
+96,96,9.95,"b'Lakewood, New York'",US,2016-11-24T03:43:11.000Z,96,exp
+97,97,9.95,"b'Lakewood, New York'",US,2016-11-24T03:47:05.000Z,97,exp
+98,98,9.99,"b'Los Fresnos, Texas'",US,2016-11-25T04:03:15.000Z,98,exp
+99,99,9.99,"b'Rochester, New York'",US,2016-11-24T03:59:50.000Z,99,exp
+100,100,9.99,"b'Tucson, Arizona'",US,2016-11-24T04:01:12.000Z,100,exp
+101,101,9.99,"b'Springfield, Ohio'",US,2016-11-24T04:04:43.000Z,101,exp
+102,102,9.99,"b'New Britain, Connecticut'",US,2016-11-24T04:06:53.000Z,102,exp
+103,103,9.99,"b'Los Fresnos, Texas'",US,2016-11-25T04:07:03.000Z,103,exp
+104,104,9.99,"b'Ridge, New York'",US,2016-11-24T04:09:38.000Z,104,exp
+105,105,9.99,"b'Los Fresnos, Texas'",US,2016-11-25T03:38:07.000Z,105,exp
+106,106,9.99,"b'Mesa, Arizona'",US,2016-11-24T03:41:37.000Z,106,exp
+107,107,9.99,"b'Lexington, Kentucky'",US,2016-11-24T03:43:21.000Z,107,exp
+108,108,9.99,"b'Mesa, Arizona'",US,2016-11-24T03:45:25.000Z,108,exp
+109,109,9.99,"b'Ellsworth, Maine'",US,2016-11-24T03:45:45.000Z,109,exp
+110,110,9.99,"b'Washington,DC'",US,2016-11-24T03:53:45.000Z,110,exp
+111,111,9.99,"b'Los Fresnos, Texas'",US,2016-11-25T03:46:19.000Z,111,exp
+112,112,10,"b'Hyndman, Pennsylvania'",US,2016-11-24T03:56:44.000Z,112,exp
+113,113,10,"b'Hyndman, Pennsylvania'",US,2016-11-24T03:58:02.000Z,113,exp
+114,114,10,"b'Madison, Wisconsin'",US,2016-11-24T04:02:52.000Z,114,exp
+115,115,10,"b'Bettendorf, Iowa'",US,2016-11-24T03:40:52.000Z,115,exp
+116,116,10,"b'Fresno, California'",US,2016-11-24T03:46:22.000Z,116,exp
+117,117,10.9,"b'Knoxville, Tennessee'",US,2016-11-24T03:38:15.000Z,117,exp
+118,118,10.95,"b'Mount Dora, Florida'",US,2016-11-24T03:50:10.000Z,118,exp
+119,119,10.95,"b'Mount Dora, Florida'",US,2016-11-24T03:50:11.000Z,119,exp
+120,120,10.99,"b'Quincy, Florida'",US,2016-11-24T04:00:31.000Z,120,exp
+121,121,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T03:58:02.000Z,121,exp
+122,122,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T03:58:03.000Z,122,exp
+123,123,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T03:58:03.000Z,123,exp
+124,124,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T03:58:04.000Z,124,exp
+125,125,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T03:58:04.000Z,125,exp
+126,126,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T03:58:04.000Z,126,exp
+127,127,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T03:58:04.000Z,127,exp
+128,128,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T04:00:26.000Z,128,exp
+129,129,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T04:00:26.000Z,129,exp
+130,130,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T04:00:26.000Z,130,exp
+131,131,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T03:54:55.000Z,131,exp
+132,132,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T03:54:55.000Z,132,exp
+133,133,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T03:54:55.000Z,133,exp
+134,134,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T03:54:56.000Z,134,exp
+135,135,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T03:54:56.000Z,135,exp
+136,136,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T03:54:57.000Z,136,exp
+137,137,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T03:54:57.000Z,137,exp
+138,138,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T03:54:57.000Z,138,exp
+139,139,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T03:54:57.000Z,139,exp
+140,140,11.95,"b'Wappingers Falls, New York'",US,2016-11-24T03:54:57.000Z,140,exp
+141,141,11.99,"b'Walnut, California'",US,2016-11-24T03:47:28.000Z,141,exp
+142,142,12,"b'Yukon, Oklahoma'",US,2016-11-24T04:01:46.000Z,142,exp
+143,143,12,"b'Santa Monica, California'",US,2016-11-24T03:50:20.000Z,143,exp
+144,144,12.06,"b'New York, New York'",US,2016-11-24T03:55:01.000Z,144,exp
+145,145,12.5,"b'Vine Grove, Kentucky'",US,2016-11-24T03:40:38.000Z,145,exp
+146,146,12.5,"b'Vine Grove, Kentucky'",US,2016-11-24T03:42:00.000Z,146,exp
+147,147,12.6,"b'Lemon Grove, California'",US,2016-11-24T04:10:04.000Z,147,exp
+148,148,12.95,"b'Brick, New Jersey'",US,2016-11-24T04:01:20.000Z,148,exp
+149,149,12.95,"b'The Finger Lakes, NY'",US,2016-11-24T03:47:33.000Z,149,exp
+150,150,12.99,"b'Sayreville, New Jersey'",US,2016-11-24T04:01:58.000Z,150,exp
+151,151,12.99,b'55304',US,2016-11-24T03:41:49.000Z,151,exp
+152,152,13,"b'Niagara Falls, New York'",US,2016-11-24T04:09:02.000Z,152,exp
+153,153,13.35,"b'Trenton, New Jersey'",US,2016-11-24T03:47:42.000Z,153,exp
+154,154,13.38,"b'Washington,DC'",US,2016-11-24T04:04:09.000Z,154,exp
+155,155,13.99,"b'San Diego, California'",US,2016-11-24T04:00:39.000Z,155,exp
+156,156,13.99,"b'San Diego, California'",US,2016-11-24T04:00:28.000Z,156,exp
+157,157,13.99,"b'San Diego, California'",US,2016-11-24T04:00:47.000Z,157,exp
+158,158,13.99,"b'San Diego, California'",US,2016-11-24T04:00:54.000Z,158,exp
+159,159,14,"b'Klamath Falls, Oregon'",US,2016-11-24T03:37:34.000Z,159,exp
+160,160,14.26,"b'Sedalia, Missouri'",US,2016-11-24T03:38:56.000Z,160,exp
+161,161,14.95,"b'McCaysville, Georgia'",US,2016-11-24T03:59:20.000Z,161,exp
+162,162,14.95,"b'Providence, Rhode Island'",US,2016-11-24T03:47:36.000Z,162,exp
+163,163,14.95,"b'Schaumburg, Illinois'",US,2016-11-24T03:48:57.000Z,163,exp
+164,164,14.95,"b'Brick, New Jersey'",US,2016-11-24T03:50:34.000Z,164,exp
+165,165,14.95,"b'Brick, New Jersey'",US,2016-11-24T03:52:58.000Z,165,exp
+166,166,14.95,"b'Dwight, Illinois'",US,2016-11-24T03:53:04.000Z,166,exp
+167,167,14.95,"b'Brick, New Jersey'",US,2016-11-24T03:55:39.000Z,167,exp
+168,168,14.98,b'United States',US,2016-11-24T03:55:30.000Z,168,exp
+169,169,14.99,"b'Montclair, California'",US,2016-11-24T03:57:35.000Z,169,exp
+170,170,14.99,"b'Rome, New York'",US,2016-11-24T04:01:55.000Z,170,exp
+171,171,14.99,"b'Woodbridge, Virginia'",US,2016-11-24T04:04:06.000Z,171,exp
+172,172,14.99,"b'Colfax, California'",US,2016-11-24T04:06:21.000Z,172,exp
+173,173,14.99,"b'Nashville, Tennessee'",US,2016-11-24T04:07:39.000Z,173,exp
+174,174,14.99,"b'Leawood, Kansas'",US,2016-11-24T03:47:48.000Z,174,exp
+175,175,14.99,"b'Twinsburg, Ohio'",US,2016-11-24T03:51:49.000Z,175,exp
+176,176,14.99,"b'Saint Louis, Missouri'",US,2016-11-24T03:52:12.000Z,176,exp
+177,177,15,"b'Surprise, Arizona'",US,2016-11-24T12:00:07.000Z,177,exp
+178,178,15,"b'Sugar Land, Texas'",US,2016-11-24T03:45:03.000Z,178,exp
+179,179,15.2,"b'Bellingham, Washington'",US,2016-11-24T04:06:38.000Z,179,exp
+180,180,15.88,b'CA',US,2016-11-24T03:45:18.000Z,180,exp
+181,181,15.9,"b'Wichita, Kansas'",US,2016-11-24T04:07:45.000Z,181,exp
+182,182,15.99,"b'Hebron, Maryland'",US,2016-11-24T03:41:36.000Z,182,exp
+183,183,16.19,b'CA/KY',US,2016-11-24T03:39:51.000Z,183,exp
+184,184,16.95,"b'Winlock, Washington'",US,2016-11-24T04:03:46.000Z,184,exp
+185,185,16.95,"b'Pompano Beach, Florida'",US,2016-11-24T03:48:54.000Z,185,exp
+186,186,16.95,"b'Pompano Beach, Florida'",US,2016-11-24T03:49:31.000Z,186,exp
+187,187,16.98,"b'Sierra Vista, Arizona'",US,2016-11-24T03:49:33.000Z,187,exp
+188,188,16.99,"b'New York, New York'",US,2016-11-24T03:46:51.000Z,188,exp
+189,189,17,"b'Portland, Oregon'",US,2016-11-24T03:39:23.000Z,189,exp
+190,190,17.95,"b'Dwight, Illinois'",US,2016-11-24T04:00:48.000Z,190,exp
+191,191,17.95,"b'Olympia, Washington'",US,2016-11-24T04:05:55.000Z,191,exp
+192,192,17.95,"b'The Finger Lakes, NY'",US,2016-11-24T03:43:57.000Z,192,exp
+193,193,18.28,"b'Indianapolis, Indiana'",US,2016-11-24T04:02:50.000Z,193,exp
+194,194,18.49,"b'Marietta, Georgia'",US,2016-11-24T03:57:45.000Z,194,exp
+195,195,18.59,"b'Hamilton, Ohio'",US,2016-11-24T04:02:36.000Z,195,exp
+196,196,18.95,"b'Wichita, Kansas'",US,2016-11-24T03:44:01.000Z,196,exp
+197,197,18.99,"b'Xenia, Illinois'",US,2016-11-24T03:58:20.000Z,197,exp
+198,198,18.99,"b'Boise, Idaho'",US,2016-11-24T03:59:06.000Z,198,exp
+199,199,19,"b'Downingtown, Pennsylvania'",US,2016-11-24T03:39:53.000Z,199,exp
+200,200,19,"b'Baton Rouge, Louisiana'",US,2016-11-24T03:39:56.000Z,200,exp
+201,201,19,"b'Greer, South Carolina'",US,2016-11-24T03:40:13.000Z,201,exp
+202,202,19.39,"b'Hamilton, Ohio'",US,2016-11-24T03:58:54.000Z,202,exp
+203,203,19.39,b'CA',US,2016-11-24T03:44:43.000Z,203,exp
+204,204,19.49,"b'Washington,DC'",US,2016-11-24T03:55:56.000Z,204,exp
+205,205,19.95,"b'Providence, Rhode Island'",US,2016-11-24T03:46:33.000Z,205,exp
+206,206,19.99,"b'Henrico, Virginia'",US,2016-11-24T03:38:14.000Z,206,exp
+207,207,19.99,"b'Corinth, Mississippi'",US,2016-11-24T22:55:50.000Z,207,exp
+208,208,19.99,"b'Brooklyn, New York'",US,2016-11-24T03:42:26.000Z,208,exp
+209,209,19.99,"b'Dewitt, Michigan'",US,2016-11-24T03:43:16.000Z,209,exp
+210,210,19.99,b'55304',US,2016-11-24T03:48:46.000Z,210,exp
+211,211,19.99,"b'Saint Louis, Missouri'",US,2016-11-24T03:49:07.000Z,211,exp
+212,212,20,"b'Colfax, California'",US,2016-11-24T04:06:21.000Z,212,exp
+213,213,20,"b'Lemon Grove, California'",US,2016-11-24T03:43:42.000Z,213,exp
+214,214,20,"b'Lemon Grove, California'",US,2016-11-24T03:43:42.000Z,214,exp
+215,215,20,"b'Lemon Grove, California'",US,2016-11-24T03:43:42.000Z,215,exp
+216,216,20,"b'Lemon Grove, California'",US,2016-11-24T03:43:43.000Z,216,exp
+217,217,20,"b'Mission Hills, California'",US,2016-11-24T03:53:56.000Z,217,exp
+218,218,20.16,"b'Henderson, Nevada'",US,2016-11-24T04:09:21.000Z,218,exp
+219,219,21.74,b'US',US,2016-11-24T03:39:01.000Z,219,exp
+220,220,21.95,"b'Irmo, South Carolina'",US,2016-11-24T04:04:30.000Z,220,exp
+221,221,21.99,"b'Orlando, Florida'",US,2016-11-24T03:59:24.000Z,221,exp
+222,222,21.99,"b'Manvel, Texas'",US,2016-11-24T04:07:34.000Z,222,exp
+223,223,21.99,"b'Dallas, Texas'",US,2016-11-24T03:52:19.000Z,223,exp
+224,224,22,"b'Downingtown, Pennsylvania'",US,2016-11-24T03:39:54.000Z,224,exp
+225,225,22,"b'Greer, South Carolina'",US,2016-11-24T03:43:59.000Z,225,exp
+226,226,22,"b'Saint Robert, Missouri'",US,2016-11-24T03:50:23.000Z,226,exp
+227,227,22.21,"b'Indianapolis, Indiana'",US,2016-11-24T03:40:59.000Z,227,exp
+228,228,22.49,b'US',US,2016-11-24T03:52:33.000Z,228,exp
+229,229,22.5,"b'Hastings, Nebraska'",US,2016-11-24T03:45:33.000Z,229,exp
+230,230,22.8,"b'West Warwick, Rhode Island'",US,2016-11-24T03:53:11.000Z,230,exp
+231,231,22.95,"b'El Paso, Texas'",US,2016-11-24T04:00:41.000Z,231,exp
+232,232,23,"b'Brooklyn, New York'",US,2016-11-24T04:06:54.000Z,232,exp
+233,233,23.49,"b'Duquesne, Pennsylvania'",US,2016-11-24T03:59:38.000Z,233,exp
+234,234,23.64,b'US',US,2016-11-24T04:02:04.000Z,234,exp
+235,235,23.69,"b'Marlboro, New York'",US,2016-11-24T04:04:53.000Z,235,exp
+236,236,23.99,b'San Francisco',US,2016-11-24T03:57:44.000Z,236,exp
+237,237,24,"b'Downingtown, Pennsylvania'",US,2016-11-24T03:39:54.000Z,237,exp
+238,238,24,"b'Columbus, Ohio'",US,2016-11-24T03:43:15.000Z,238,exp
+239,239,24,"b'Reading, Pennsylvania'",US,2016-11-24T03:54:29.000Z,239,exp
+240,240,24.5,"b'Santa Rosa, California'",US,2016-11-24T04:07:59.000Z,240,exp
+241,241,24.75,b'USA',US,2016-11-24T03:40:21.000Z,241,exp
+242,242,24.95,"b'Louisville, Kentucky'",US,2016-11-24T03:37:33.000Z,242,exp
+243,243,24.99,"b'Ardmore, Oklahoma'",US,2016-11-24T03:59:07.000Z,243,exp
+244,244,24.99,"b'Concordia, Kansas'",US,2016-11-24T03:47:41.000Z,244,exp
+245,245,24.99,"b'Ardmore, Oklahoma'",US,2016-11-24T03:53:39.000Z,245,exp
+246,246,24.99,"b'Dallas, Texas'",US,2016-11-24T03:54:38.000Z,246,exp
+247,247,25.15,b'US',US,2016-11-24T04:01:52.000Z,247,exp
+248,248,25.79,"b'Barnegat, New Jersey'",US,2016-11-24T04:07:43.000Z,248,exp
+249,249,25.99,"b'Saint Louis, Missouri'",US,2016-11-24T03:40:56.000Z,249,exp
+250,250,25.99,"b'Forest, Virginia'",US,2016-11-24T03:50:08.000Z,250,exp
+251,251,26.05,"b'Durham, North Carolina'",US,2016-11-24T03:52:43.000Z,251,exp
+252,252,26.39,"b'Saint Louis, Missouri'",US,2016-11-24T04:01:26.000Z,252,exp
+253,253,26.49,"b'Rosemead, California'",US,2016-11-24T03:51:23.000Z,253,exp
+254,254,26.98,b'US',US,2016-11-24T03:39:05.000Z,254,exp
+255,255,26.99,"b'Pompano Beach, Florida'",US,2016-11-24T03:55:32.000Z,255,exp
+256,256,26.99,"b'Pompano Beach, Florida'",US,2016-11-24T03:55:56.000Z,256,exp
+257,257,26.99,"b'Pompano Beach, Florida'",US,2016-11-24T03:56:11.000Z,257,exp
+258,258,27,"b'Hinckley, Ohio'",US,2016-11-24T03:51:53.000Z,258,exp
+259,259,27,"b'Hinckley, Ohio'",US,2016-11-24T03:52:13.000Z,259,exp
+260,260,27,"b'Hinckley, Ohio'",US,2016-11-24T03:53:15.000Z,260,exp
+261,261,27,"b'Hinckley, Ohio'",US,2016-11-24T03:53:48.000Z,261,exp
+262,262,28,"b'Paris, Tennessee'",US,2016-11-24T04:05:43.000Z,262,exp
+263,263,28,"b'Downingtown, Pennsylvania'",US,2016-11-24T03:39:53.000Z,263,exp
+264,264,28.19,"b'Hinckley, Ohio'",US,2016-11-24T03:56:51.000Z,264,exp
+265,265,28.19,"b'Hinckley, Ohio'",US,2016-11-24T03:57:13.000Z,265,exp
+266,266,28.19,"b'Hinckley, Ohio'",US,2016-11-24T03:58:14.000Z,266,exp
+267,267,28.19,"b'Hinckley, Ohio'",US,2016-11-24T03:58:44.000Z,267,exp
+268,268,28.19,"b'Hinckley, Ohio'",US,2016-11-24T03:59:25.000Z,268,exp
+269,269,28.19,"b'Hinckley, Ohio'",US,2016-11-24T03:59:38.000Z,269,exp
+270,270,28.19,"b'Hinckley, Ohio'",US,2016-11-24T03:59:50.000Z,270,exp
+271,271,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:00:21.000Z,271,exp
+272,272,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:01:00.000Z,272,exp
+273,273,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:01:11.000Z,273,exp
+274,274,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:02:25.000Z,274,exp
+275,275,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:02:45.000Z,275,exp
+276,276,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:02:57.000Z,276,exp
+277,277,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:03:30.000Z,277,exp
+278,278,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:03:42.000Z,278,exp
+279,279,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:03:53.000Z,279,exp
+280,280,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:04:39.000Z,280,exp
+281,281,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:05:11.000Z,281,exp
+282,282,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:05:28.000Z,282,exp
+283,283,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:06:21.000Z,283,exp
+284,284,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:06:52.000Z,284,exp
+285,285,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:07:37.000Z,285,exp
+286,286,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:08:03.000Z,286,exp
+287,287,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:08:26.000Z,287,exp
+288,288,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:09:35.000Z,288,exp
+289,289,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:09:54.000Z,289,exp
+290,290,28.19,"b'Hinckley, Ohio'",US,2016-11-24T03:39:37.000Z,290,exp
+291,291,28.19,"b'Hinckley, Ohio'",US,2016-11-24T03:48:31.000Z,291,exp
+292,292,28.19,"b'Hinckley, Ohio'",US,2016-11-24T03:49:23.000Z,292,exp
+293,293,28.19,"b'Hinckley, Ohio'",US,2016-11-24T03:49:44.000Z,293,exp
+294,294,28.19,"b'Hinckley, Ohio'",US,2016-11-24T03:50:25.000Z,294,exp
+295,295,28.19,"b'Hinckley, Ohio'",US,2016-11-24T03:50:34.000Z,295,exp
+296,296,28.19,"b'Hinckley, Ohio'",US,2016-11-24T03:54:07.000Z,296,exp
+297,297,28.19,"b'Hinckley, Ohio'",US,2016-11-24T03:54:16.000Z,297,exp
+298,298,28.19,"b'Hinckley, Ohio'",US,2016-11-24T03:56:34.000Z,298,exp
+299,299,28.95,"b'Moundsville, West Virginia'",US,2016-11-24T03:48:20.000Z,299,exp
+300,300,28.99,"b'Woodstock, Georgia'",US,2016-11-24T03:38:11.000Z,300,exp
+301,301,29,"b'Hinckley, Ohio'",US,2016-11-24T03:37:53.000Z,301,exp
+302,302,29,"b'Hinckley, Ohio'",US,2016-11-24T03:38:28.000Z,302,exp
+303,303,29,"b'South Lyon, Michigan'",US,2016-11-24T03:55:35.000Z,303,exp
+304,304,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:38:59.000Z,304,exp
+305,305,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:39:11.000Z,305,exp
+306,306,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:40:39.000Z,306,exp
+307,307,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:40:49.000Z,307,exp
+308,308,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:41:24.000Z,308,exp
+309,309,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:41:35.000Z,309,exp
+310,310,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:42:10.000Z,310,exp
+311,311,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:42:53.000Z,311,exp
+312,312,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:43:12.000Z,312,exp
+313,313,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:43:44.000Z,313,exp
+314,314,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:44:04.000Z,314,exp
+315,315,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:44:26.000Z,315,exp
+316,316,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:44:37.000Z,316,exp
+317,317,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:45:00.000Z,317,exp
+318,318,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:45:20.000Z,318,exp
+319,319,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:45:41.000Z,319,exp
+320,320,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:47:01.000Z,320,exp
+321,321,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:47:14.000Z,321,exp
+322,322,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:47:23.000Z,322,exp
+323,323,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:51:05.000Z,323,exp
+324,324,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:54:37.000Z,324,exp
+325,325,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:55:21.000Z,325,exp
+326,326,29.27,"b'Hinckley, Ohio'",US,2016-11-24T03:55:32.000Z,326,exp
+327,327,29.5,"b'Dewitt, Michigan'",US,2016-11-24T03:59:58.000Z,327,exp
+328,328,29.5,b'USA',US,2016-11-24T04:07:37.000Z,328,exp
+329,329,29.87,"b'Marlboro, New York'",US,2016-11-24T04:04:54.000Z,329,exp
+330,330,29.95,"b'Las Vegas, Nevada'",US,2016-11-24T03:56:52.000Z,330,exp
+331,331,29.95,"b'Pompano Beach, Florida'",US,2016-11-24T04:09:25.000Z,331,exp
+332,332,29.95,"b'Pompano Beach, Florida'",US,2016-11-24T04:09:59.000Z,332,exp
+333,333,29.95,"b'Georgetown, Texas'",US,2016-11-24T04:10:03.000Z,333,exp
+334,334,29.95,"b'Middleton, Massachusetts'",US,2016-11-24T03:49:04.000Z,334,exp
+335,335,29.95,"b'Pompano Beach, Florida'",US,2016-11-24T03:53:08.000Z,335,exp
+336,336,29.99,"b'San Diego, California'",US,2016-11-24T04:00:57.000Z,336,exp
+337,337,29.99,"b'Orlando, Florida'",US,2016-11-24T03:49:17.000Z,337,exp
+338,338,30,"b'Miami, Florida'",US,2016-11-24T03:58:22.000Z,338,exp
+339,339,30.48,b'US',US,2016-11-24T04:01:44.000Z,339,exp
+340,340,30.77,b'US',US,2016-11-24T03:38:53.000Z,340,exp
+341,341,31,"b'Asheville, North Carolina'",US,2016-11-24T03:56:23.000Z,341,exp
+342,342,32,"b'Concordia, Kansas'",US,2016-11-24T03:47:41.000Z,342,exp
+343,343,32.05,"b'Pompano Beach, Florida'",US,2016-11-24T03:58:58.000Z,343,exp
+344,344,32.35,"b'Maryland Heights, Missouri'",US,2016-11-24T03:38:33.000Z,344,exp
+345,345,33.77,"b'Marlboro, New York'",US,2016-11-24T04:04:54.000Z,345,exp
+346,346,34.95,"b'Booneville, Arkansas'",US,2016-11-24T03:50:23.000Z,346,exp
+347,347,35,"b'Las Vegas, Nevada'",US,2016-11-24T03:59:05.000Z,347,exp
+348,348,35,"b'Ventura, California'",US,2016-11-24T04:07:25.000Z,348,exp
+349,349,35,"b'Catonsville, Maryland'",US,2016-11-24T03:55:59.000Z,349,exp
+350,350,35,"b'Las Vegas, Nevada'",US,2016-11-24T03:56:15.000Z,350,exp
+351,351,37.79,"b'Springville, Utah'",US,2016-11-24T04:05:21.000Z,351,exp
+352,352,38.17,b'Multiple Locations',US,2016-11-24T03:48:31.000Z,352,exp
+353,353,38.24,"b'Springville, Utah'",US,2016-11-24T04:09:21.000Z,353,exp
+354,354,38.24,b'US',US,2016-11-24T03:44:50.000Z,354,exp
+355,355,39,"b'Northridge, California'",US,2016-11-24T03:51:00.000Z,355,exp
+356,356,39.14,b'US',US,2016-11-24T03:43:27.000Z,356,exp
+357,357,39.5,"b'Jefferson City, Tennessee'",US,2016-11-24T03:49:23.000Z,357,exp
+358,358,39.95,"b'Las Vegas, Nevada'",US,2016-11-24T03:56:52.000Z,358,exp
+359,359,39.95,"b'Pompano Beach, Florida'",US,2016-11-24T04:02:00.000Z,359,exp
+360,360,39.99,"b'New Britain, Connecticut'",US,2016-11-24T04:06:52.000Z,360,exp
+361,361,39.99,"b'Rome, New York'",US,2016-11-24T04:10:37.000Z,361,exp
+362,362,39.99,"b'Lake Worth, Florida'",US,2016-11-24T04:10:41.000Z,362,exp
+363,363,39.99,"b'Cincinnati, Ohio'",US,2016-11-24T03:39:41.000Z,363,exp
+364,364,39.99,"b'Langhorne, Pennsylvania'",US,2016-11-24T03:41:22.000Z,364,exp
+365,365,39.99,"b'Irvine, California'",US,2016-11-24T03:46:23.000Z,365,exp
+366,366,40,"b'New York, New York'",US,2016-11-24T04:06:39.000Z,366,exp
+367,367,42.52,"b'Woodstock, Illinois'",US,2016-11-24T03:56:15.000Z,367,exp
+368,368,43.06,b'US',US,2016-11-24T04:01:56.000Z,368,exp
+369,369,44.95,"b'Pompano Beach, Florida'",US,2016-11-24T03:39:21.000Z,369,exp
+370,370,44.99,"b'Brookhaven, Pennsylvania'",US,2016-11-24T03:47:29.000Z,370,exp
+371,371,45,"b'Sacramento, California'",US,2016-11-24T03:48:30.000Z,371,exp
+372,372,45,b'ND-SUPPORT OUR TROOPS!',US,2016-11-24T03:53:33.000Z,372,exp
+373,373,45,"b'Burbank, California'",US,2016-11-24T03:54:36.000Z,373,exp
+374,374,45,"b'Burbank, California'",US,2016-11-24T03:54:36.000Z,374,exp
+375,375,45.15,b'Multiple Locations',US,2016-11-24T03:47:28.000Z,375,exp
+376,376,45.41,"b'Indialantic, Florida'",US,2016-11-24T04:03:06.000Z,376,exp
+377,377,46.9,"b'Redondo Beach, California'",US,2016-11-24T03:59:16.000Z,377,exp
+378,378,46.9,"b'Redondo Beach, California'",US,2016-11-24T03:53:27.000Z,378,exp
+379,379,46.9,"b'Redondo Beach, California'",US,2016-11-24T03:53:27.000Z,379,exp
+380,380,46.9,"b'Redondo Beach, California'",US,2016-11-24T03:55:59.000Z,380,exp
+381,381,46.9,"b'Redondo Beach, California'",US,2016-11-24T03:55:59.000Z,381,exp
+382,382,47.6,b'Multiple Location',US,2016-11-24T04:06:44.000Z,382,exp
+383,383,49,"b'Greer, South Carolina'",US,2016-11-24T03:54:00.000Z,383,exp
+384,384,49.99,"b'Alexandria, Virginia'",US,2016-11-24T04:06:23.000Z,384,exp
+385,385,49.99,"b'Little Elm, Texas'",US,2016-11-24T04:09:03.000Z,385,exp
+386,386,49.99,"b'Antioch, California'",US,2016-11-24T03:40:04.000Z,386,exp
+387,387,49.99,"b'Hauppauge, New York'",US,2016-11-24T03:49:47.000Z,387,exp
+388,388,49.99,"b'Frederick, Maryland'",US,2016-11-24T03:53:14.000Z,388,exp
+389,389,50,"b'Inglewood, California'",US,2016-11-24T04:04:17.000Z,389,exp
+390,390,50,"b'Harrison, New Jersey'",US,2016-11-24T04:06:02.000Z,390,exp
+391,391,50,"b'West Palm Beach, Florida'",US,2016-11-24T03:50:57.000Z,391,exp
+392,392,51,"b'Los Fresnos, Texas'",US,2016-11-25T05:27:33.000Z,392,exp
+393,393,51,"b'Takoma Park, Maryland'",US,2016-11-24T06:00:44.000Z,393,exp
+394,394,51.08,b'US',US,2016-11-24T03:39:27.000Z,394,exp
+395,395,53.45,"b'Pompano Beach, Florida'",US,2016-11-24T03:40:10.000Z,395,exp
+396,396,54.25,b'Multiple Locations',US,2016-11-24T03:44:01.000Z,396,exp
+397,397,54.51,"b'Indialantic, Florida'",US,2016-11-24T03:40:47.000Z,397,exp
+398,398,54.66,b'Ewing',US,2016-11-24T03:40:43.000Z,398,exp
+399,399,54.95,"b'Easton, Pennsylvania'",US,2016-11-24T03:47:55.000Z,399,exp
+400,400,55,b'US',US,2016-11-24T03:44:39.000Z,400,exp
+401,401,55.29,b'US',US,2016-11-24T04:02:20.000Z,401,exp
+402,402,56.04,b'Multiple Locations',US,2016-11-24T04:02:29.000Z,402,exp
+403,403,59.95,"b'Las Vegas, Nevada'",US,2016-11-24T03:59:05.000Z,403,exp
+404,404,59.95,"b'Titusville, Florida'",US,2016-11-24T03:45:49.000Z,404,exp
+405,405,59.99,"b'Fairfax, Iowa'",US,2016-11-24T03:56:58.000Z,405,exp
+406,406,59.99,"b'Alexandria, Virginia'",US,2016-11-24T04:03:18.000Z,406,exp
+407,407,59.99,"b'Lindstrom, Minnesota'",US,2016-11-24T04:10:42.000Z,407,exp
+408,408,59.99,"b'Portland, Oregon'",US,2016-11-24T04:10:58.000Z,408,exp
+409,409,59.99,"b'Niagara Falls, New York'",US,2016-11-24T03:53:58.000Z,409,exp
+410,410,60,b'BM1-world warehouse',US,2016-11-24T03:58:44.000Z,410,exp
+411,411,60,b'BM1-world warehouse',US,2016-11-24T03:58:59.000Z,411,exp
+412,412,60.23,b'Multiple Locations',US,2016-11-24T03:45:40.000Z,412,exp
+413,413,60.24,b'Multiple Locations',US,2016-11-24T03:49:30.000Z,413,exp
+414,414,63.86,b'Multiple Location',US,2016-11-24T03:54:37.000Z,414,exp
+415,415,63.99,"b'Austin, Texas'",US,2016-11-24T04:00:04.000Z,415,exp
+416,416,64.99,"b'Austin, Texas'",US,2016-11-24T03:43:04.000Z,416,exp
+417,417,65,"b'Santa Rosa, California'",US,2016-11-24T03:40:09.000Z,417,exp
+418,418,65.03,b'US',US,2016-11-24T03:37:57.000Z,418,exp
+419,419,65.62,b'Multiple Locations',US,2016-11-24T04:03:16.000Z,419,exp
+420,420,66,"b'Washington,DC'",US,2016-11-24T03:42:35.000Z,420,exp
+421,421,68,"b'Boston, Massachusetts'",US,2016-11-24T03:48:52.000Z,421,exp
+422,422,68.99,"b'Philadelphia, Pennsylvania'",US,2016-11-24T03:57:05.000Z,422,exp
+423,423,69.99,"b'Hauppauge, New York'",US,2016-11-24T04:07:24.000Z,423,exp
+424,424,70,"b'Colfax, California'",US,2016-11-24T04:06:21.000Z,424,exp
+425,425,70,"b'Bethlehem, Connecticut'",US,2016-11-24T03:47:49.000Z,425,exp
+426,426,71.96,"b'Los Angeles, California'",US,2016-11-24T04:02:43.000Z,426,exp
+427,427,71.96,"b'Los Angeles, California'",US,2016-11-24T04:04:27.000Z,427,exp
+428,428,73.01,b'Multiple Locations',US,2016-11-24T04:01:40.000Z,428,exp
+429,429,74.95,"b'Dwight, Illinois'",US,2016-11-24T04:07:24.000Z,429,exp
+430,430,78.21,b'Multiple Locations',US,2016-11-24T03:40:52.000Z,430,exp
+431,431,79.95,"b'Las Vegas, Nevada'",US,2016-11-24T03:56:59.000Z,431,exp
+432,432,79.95,"b'Louisville, Kentucky'",US,2016-11-24T03:37:37.000Z,432,exp
+433,433,79.95,"b'Phoenix, Arizona'",US,2016-11-24T03:39:16.000Z,433,exp
+434,434,79.99,"b'Camden, New Jersey'",US,2016-11-24T04:03:08.000Z,434,exp
+435,435,80,"b'La Mesa, California'",US,2016-11-24T03:37:38.000Z,435,exp
+436,436,84,b'BM1-world warehouse',US,2016-11-24T03:58:13.000Z,436,exp
+437,437,85,"b'Las Vegas, Nevada'",US,2016-11-24T03:59:53.000Z,437,exp
+438,438,85,"b'Ontario, California'",US,2016-11-24T03:40:00.000Z,438,exp
+439,439,86.13,"b'Clayton, North Carolina'",US,2016-11-24T03:43:13.000Z,439,exp
+440,440,86.13,"b'Clayton, North Carolina'",US,2016-11-24T03:43:13.000Z,440,exp
+441,441,86.4,b'BM1-world warehouse',US,2016-11-24T03:58:59.000Z,441,exp
+442,442,87.46,b'US',US,2016-11-24T03:43:19.000Z,442,exp
+443,443,87.54,b'Multiple Location',US,2016-11-24T03:38:24.000Z,443,exp
+444,444,88.5,"b'Fort Belvoir, Virginia'",US,2016-11-24T04:05:31.000Z,444,exp
+445,445,89.25,"b'Rochester, New York'",US,2016-11-24T03:37:19.000Z,445,exp
+446,446,89.95,b'United States',US,2016-11-24T03:45:36.000Z,446,exp
+447,447,90,"b'Saugus, Massachusetts'",US,2016-11-24T04:01:06.000Z,447,exp
+448,448,95.94,b'US',US,2016-11-24T03:44:35.000Z,448,exp
+449,449,99,"b'Georgetown, Texas'",US,2016-11-24T04:10:03.000Z,449,exp
+450,450,99,"b'Chicago, Illinois'",US,2016-11-24T03:46:15.000Z,450,exp
+451,451,99.9,"b'Redondo Beach, California'",US,2016-11-24T04:05:52.000Z,451,exp
+452,452,99.9,"b'Redondo Beach, California'",US,2016-11-24T04:05:52.000Z,452,exp
+453,453,99.95,b'United States',US,2016-11-24T03:48:29.000Z,453,exp
+454,454,99.99,"b'Alexandria, Virginia'",US,2016-11-24T04:03:16.000Z,454,exp
+455,455,103.18,b'Multiple Locations',US,2016-11-24T03:43:16.000Z,455,exp
+456,456,103.6,b'US',US,2016-11-24T03:38:50.000Z,456,exp
+457,457,105.02,b'Multiple Locations',US,2016-11-24T04:05:31.000Z,457,exp
+458,458,109,"b'Saratoga Springs, Utah'",US,2016-11-24T03:41:49.000Z,458,exp
+459,459,109.24,b'Multiple Locations',US,2016-11-24T04:10:36.000Z,459,exp
+460,460,115,"b'Las Vegas, Nevada'",US,2016-11-24T03:59:52.000Z,460,exp
+461,461,119.95,"b'Las Vegas, Nevada'",US,2016-11-24T03:59:53.000Z,461,exp
+462,462,120,"b'Colfax, California'",US,2016-11-24T04:07:38.000Z,462,exp
+463,463,120,"b'Colfax, California'",US,2016-11-24T04:07:38.000Z,463,exp
+464,464,124.95,"b'Discovery Bay, California'",US,2016-11-24T03:53:42.000Z,464,exp
+465,465,125,"b'Las Vegas, Nevada'",US,2016-11-24T03:59:06.000Z,465,exp
+466,466,125,"b'Colfax, California'",US,2016-11-24T04:06:21.000Z,466,exp
+467,467,125,"b'Mountain Top, Pennsylvania'",US,2016-11-24T03:45:40.000Z,467,exp
+468,468,129,"b'San Francisco, California'",US,2016-11-24T03:55:43.000Z,468,exp
+469,469,129.99,"b'Glen Burnie, Maryland'",US,2016-11-24T04:07:26.000Z,469,exp
+470,470,129.99,"b'Albuquerque, New Mexico'",US,2016-11-24T03:39:58.000Z,470,exp
+471,471,130,"b'Mission Hills, California'",US,2016-11-24T03:53:55.000Z,471,exp
+472,472,132.11,b'Multiple Locations',US,2016-11-24T04:07:45.000Z,472,exp
+473,473,132.3,"b'Saint Petersburg, Florida'",US,2016-11-24T03:49:43.000Z,473,exp
+474,474,133.35,"b'Endicott, New York'",US,2016-11-24T03:54:33.000Z,474,exp
+475,475,134.99,"b'Camden, New Jersey'",US,2016-11-24T04:03:34.000Z,475,exp
+476,476,135.66,b'Multiple Locations',US,2016-11-24T03:40:04.000Z,476,exp
+477,477,139.99,"b'Rice Lake, Wisconsin'",US,2016-11-24T03:44:14.000Z,477,exp
+478,478,145,"b'Las Vegas, Nevada'",US,2016-11-24T03:59:52.000Z,478,exp
+479,479,145,"b'Colfax, California'",US,2016-11-24T04:06:21.000Z,479,exp
+480,480,149,"b'Temecula, California'",US,2016-11-24T03:38:25.000Z,480,exp
+481,481,149,"b'Temecula, California'",US,2016-11-24T03:42:10.000Z,481,exp
+482,482,149,"b'Temecula, California'",US,2016-11-24T03:43:32.000Z,482,exp
+483,483,149.95,"b'Las Vegas, Nevada'",US,2016-11-24T03:59:53.000Z,483,exp
+484,484,149.99,"b'Glen Burnie, Maryland'",US,2016-11-24T03:46:41.000Z,484,exp
+485,485,149.99,"b'Pine Valley, California'",US,2016-11-24T03:50:46.000Z,485,exp
+486,486,154.31,"b'California, CA'",US,2016-11-24T03:46:05.000Z,486,exp
+487,487,154.85,b'Multiple Locations',US,2016-11-24T03:46:38.000Z,487,exp
+488,488,155,"b'Colfax, California'",US,2016-11-24T04:06:22.000Z,488,exp
+489,489,155,"b'Ames, Iowa'",US,2016-11-24T03:48:47.000Z,489,exp
+490,490,159,"b'Cottage Grove, Minnesota'",US,2016-11-24T03:43:13.000Z,490,exp
+491,491,159.95,"b'Las Vegas, Nevada'",US,2016-11-24T03:59:04.000Z,491,exp
+492,492,159.99,"b'Wyandotte, Michigan'",US,2016-11-24T04:06:07.000Z,492,exp
+493,493,171,"b'El Monte, California'",US,2016-11-24T04:10:54.000Z,493,exp
+494,494,175,"b'Las Vegas, Nevada'",US,2016-11-24T03:56:52.000Z,494,exp
+495,495,179.99,"b'Camden, New Jersey'",US,2016-11-24T04:01:59.000Z,495,exp
+496,496,187.49,"b'Los Angeles, California'",US,2016-11-24T03:54:59.000Z,496,exp
+497,497,199.95,"b'Las Vegas, Nevada'",US,2016-11-24T03:59:06.000Z,497,exp
+498,498,199.95,"b'Las Vegas, Nevada'",US,2016-11-24T03:59:52.000Z,498,exp
+499,499,199.99,"b'Alexandria, Virginia'",US,2016-11-24T03:37:19.000Z,499,exp
+500,500,199.99,"b'Brooklyn, New York'",US,2016-11-24T04:08:38.000Z,500,exp
+501,501,200,"b'Burbank, California'",US,2016-11-24T03:54:36.000Z,501,exp
+502,502,200,"b'Burbank, California'",US,2016-11-24T03:54:36.000Z,502,exp
+503,503,216,"b'Clarksville, Maryland'",US,2016-11-24T03:48:48.000Z,503,exp
+504,504,245,"b'Costa Mesa, California'",US,2016-11-24T03:46:21.000Z,504,exp
+505,505,249,"b'Woonsocket, Rhode Island'",US,2016-11-24T03:47:58.000Z,505,exp
+506,506,250,"b'Sachse, Texas'",US,2016-11-24T03:57:35.000Z,506,exp
+507,507,250,"b'Miami, Florida'",US,2016-11-24T03:55:04.000Z,507,exp
+508,508,259.99,"b'Providence, Rhode Island'",US,2016-11-24T04:06:54.000Z,508,exp
+509,509,279,"b'Portland, Oregon'",US,2016-11-24T04:10:54.000Z,509,exp
+510,510,280,"b'Jackson, Wyoming'",US,2016-11-24T03:55:48.000Z,510,exp
+511,511,314.74,"b'Willowbrook, Illinois'",US,2016-11-24T03:59:54.000Z,511,exp
+512,512,316.34,"b'Plainsboro, New Jersey'",US,2016-11-24T03:40:59.000Z,512,exp
+513,513,325,"b'Freeport, New York'",US,2016-11-24T03:45:11.000Z,513,exp
+514,514,350,"b'Portland, Oregon'",US,2016-11-24T03:55:10.000Z,514,exp
+515,515,389.99,"b'Oceanside, New York'",US,2016-11-24T04:00:11.000Z,515,exp
+516,516,395,"b'Chester, Pennsylvania'",US,2016-11-24T03:42:31.000Z,516,exp
+517,517,425,"b'Las Vegas, Nevada'",US,2016-11-24T04:01:05.000Z,517,exp
+518,518,450,"b'Boston, Massachusetts'",US,2016-11-24T03:49:33.000Z,518,exp
+519,519,475,"b'Clarksville, Maryland'",US,2016-11-24T03:54:57.000Z,519,exp
+520,520,489.99,"b'Tampa, Florida'",US,2016-11-24T03:48:19.000Z,520,exp
+521,521,600,"b'Saint Paul, Minnesota'",US,2016-11-24T03:51:41.000Z,521,exp
+522,522,1495,"b'Chester, Pennsylvania'",US,2016-11-24T03:39:19.000Z,522,exp
+523,523,2090,"b'Shippensburg, Pennsylvania'",US,2016-11-24T04:00:22.000Z,523,exp
+524,524,2499,"b'Greenville, South Carolina'",US,2016-11-24T03:46:53.000Z,524,exp
+525,525,3300,"b'Brooksville, Florida'",US,2016-11-24T04:15:36.000Z,525,exp
+526,526,8199.97,b'multiple locations',US,2016-11-24T04:05:05.000Z,526,exp
+527,527,8200,"b'Lakeside, Montana'",US,2016-11-24T03:39:06.000Z,527,exp
+528,528,8500,"b'Washoe Valley, Nevada'",US,2016-11-24T03:59:21.000Z,528,exp
+529,529,15900,"b'Sun Prairie, Wisconsin'",US,2016-11-24T03:41:37.000Z,529,exp
+530,530,24995,"b'Gainesville, Georgia'",US,2016-11-24T03:59:19.000Z,530,exp
+531,531,25000,"b'Port Angeles, Washington'",US,2016-11-24T03:40:27.000Z,531,exp
+532,532,8.99,b'Virginia',US,2016-11-24T04:11:03.000Z,532,exp
+533,533,59.99,b'Virginia',US,2016-11-24T04:11:03.000Z,533,exp
+534,534,40.05,"b'Eugene, Oregon'",US,2016-11-24T04:11:04.000Z,534,exp
+535,535,55,"b'Fort Myers, Florida'",US,2016-11-24T04:11:04.000Z,535,exp
+536,536,6.99,"b'Pasadena, Maryland'",US,2016-11-24T04:11:04.000Z,536,exp
+537,537,59.99,"b'Pasadena, Maryland'",US,2016-11-24T04:11:05.000Z,537,exp
+538,538,139.99,"b'Wyandotte, Michigan'",US,2016-11-24T04:11:16.000Z,538,exp
+539,539,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:11:21.000Z,539,exp
+540,540,112.8,b'Multiple Locations',US,2016-11-24T04:11:25.000Z,540,exp
+541,541,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:11:32.000Z,541,exp
+542,542,7.95,"b'Irvine, California'",US,2016-11-24T04:11:33.000Z,542,exp
+543,543,18.1,"b'Antelope, California'",US,2016-11-24T04:11:36.000Z,543,exp
+544,544,55,"b'Jersey City, New Jersey'",US,2016-11-24T04:11:41.000Z,544,exp
+545,545,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:11:44.000Z,545,exp
+546,546,5.5,"b'Oxnard, California'",US,2016-11-24T04:11:46.000Z,546,exp
+547,547,380,"b'Portland, Oregon'",US,2016-11-24T04:11:50.000Z,547,exp
+548,548,12,"b'Springfield, Virginia'",US,2016-11-24T04:11:57.000Z,548,exp
+549,549,65,"b'Nine Mile Falls, Washington'",US,2016-11-24T04:11:58.000Z,549,exp
+550,550,299,"b'Alexandria, Virginia'",US,2016-11-24T04:12:01.000Z,550,exp
+551,551,48.99,"b'Little Elm, Texas'",US,2016-11-24T04:12:16.000Z,551,exp
+552,552,24.99,"b'Ardmore, Oklahoma'",US,2016-11-24T04:12:16.000Z,552,exp
+553,553,18.99,"b'New Fairfield, Connecticut'",US,2016-11-24T04:12:31.000Z,553,exp
+554,554,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:12:44.000Z,554,exp
+555,555,22.99,"b'Laurel, Maryland'",US,2016-11-24T04:12:50.000Z,555,exp
+556,556,319.74,"b'Willowbrook, Illinois'",US,2016-11-24T04:12:51.000Z,556,exp
+557,557,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:12:55.000Z,557,exp
+558,558,9.99,"b'Pedro, Ohio'",US,2016-11-24T04:12:57.000Z,558,exp
+559,559,11,"b'Portland, Oregon'",US,2016-11-24T04:13:01.000Z,559,exp
+560,560,75.47,b'Multiple Locations',US,2016-11-24T04:13:03.000Z,560,exp
+561,561,28.19,"b'Hinckley, Ohio'",US,2016-11-24T04:13:06.000Z,561,exp
+562,562,84.95,b'USA',US,2016-11-24T04:13:10.000Z,562,exp
+563,563,43,"b'Delaware, Ohio'",US,2016-11-24T04:13:10.000Z,563,exp
+564,564,34.25,"b'Maryland Heights, Missouri'",US,2016-11-24T04:13:17.000Z,564,exp
+565,565,5.95,"b'Irmo, South Carolina'",US,2016-11-24T04:13:20.000Z,565,exp
+566,566,13.89,"b'Durham, North Carolina'",US,2016-11-24T04:13:21.000Z,566,exp
+567,567,45,"b'Pinckneyville, Illinois'",US,2016-11-24T04:13:33.000Z,567,exp
+568,568,16.99,"b'Lindstrom, Minnesota'",US,2016-11-24T04:13:33.000Z,568,exp
+569,569,19.99,"b'Chapel Hill, North Carolina'",US,2016-11-24T04:13:34.000Z,569,exp
+570,570,12.99,"b'Walnut, California'",US,2016-11-24T04:13:41.000Z,570,exp
+571,571,112.4,b'Multiple Locations',US,2016-11-24T04:13:48.000Z,571,exp
+572,572,16.95,"b'Deltona, Florida'",US,2016-11-24T04:13:49.000Z,572,exp
+573,573,15.76,"b'Oaklyn, New Jersey'",US,2016-11-24T04:13:50.000Z,573,exp
+574,574,629,"b'Stony Brook, New York'",US,2016-11-25T03:00:00.000Z,574,exp
+575,575,280,"b'San Bernardino, California'",US,2016-11-24T04:14:00.000Z,575,exp
+576,576,5.5,"b'Oxnard, California'",US,2016-11-24T04:14:03.000Z,576,exp
+577,577,22.97,"b'La Habra, California'",US,2016-11-24T04:14:04.000Z,577,exp
+578,578,30.34,"b'Hinckley, Ohio'",US,2016-11-24T04:14:05.000Z,578,exp
+579,579,1.99,b'USA',US,2016-11-24T04:14:06.000Z,579,exp
+580,580,1399,"b'Sumas, Washington'",US,2016-11-24T04:14:09.000Z,580,exp
+581,581,34.99,"b'Staten Island, New York'",US,2016-11-24T04:14:11.000Z,581,exp
+582,582,49.97,"b'Woodstock, Illinois'",US,2016-11-24T04:14:13.000Z,582,exp
+583,583,2,"b'Orlando, Florida'",US,2016-11-24T04:14:26.000Z,583,exp
+584,584,82.99,"b'Palatka, Florida'",US,2016-11-24T04:14:26.000Z,584,exp
+585,585,60.73,b'Multiple Locations',US,2016-11-24T04:14:37.000Z,585,exp
+586,586,5.49,"b'Irwin, Pennsylvania'",US,2016-11-24T04:14:43.000Z,586,exp
+587,587,11,"b'Saint Robert, Missouri'",US,2016-11-24T04:14:44.000Z,587,exp
+588,588,38.83,"b'Alvin, Texas'",US,2016-11-24T04:14:47.000Z,588,exp
+589,589,12.42,"b'Cary, North Carolina'",US,2016-11-24T04:14:50.000Z,589,exp
+590,590,29.27,"b'Hinckley, Ohio'",US,2016-11-24T04:14:53.000Z,590,exp
+591,591,25.99,"b'McKinney, Texas'",US,2016-11-24T04:15:02.000Z,591,exp
+592,592,99.99,"b'Tolleson, Arizona'",US,2016-11-24T04:15:03.000Z,592,exp
+593,593,7.95,"b'Irvine, California'",US,2016-11-24T04:15:06.000Z,593,exp
+594,594,82.99,"b'Austin, Texas'",US,2016-11-24T04:15:12.000Z,594,exp
+595,595,17.95,"b'Brick, New Jersey'",US,2016-11-24T04:15:19.000Z,595,exp
+596,596,42.36,"b'Los Angeles, California'",US,2016-11-24T04:15:21.000Z,596,exp
+597,597,1,"b'Kansas City, Missouri'",US,2016-11-24T04:15:28.000Z,597,exp
+598,598,1,"b'Kansas City, Missouri'",US,2016-11-24T04:15:29.000Z,598,exp
+599,599,5,"b'Kansas City, Missouri'",US,2016-11-24T04:15:36.000Z,599,exp
+600,600,120,"b'Birmingham, Alabama'",US,2016-11-24T04:15:35.000Z,600,exp
+601,601,5.5,"b'Oxnard, California'",US,2016-11-24T04:15:37.000Z,601,exp
+602,602,13.99,"b'Irwin, Pennsylvania'",US,2016-11-24T04:15:38.000Z,602,exp
+603,603,9.99,"b'Ellsworth, Maine'",US,2016-11-24T04:15:41.000Z,603,exp
+604,604,25.72,"b'Hinckley, Ohio'",US,2016-11-24T04:15:55.000Z,604,exp
+605,605,45,"b'Fairfield, Iowa'",US,2016-11-24T04:15:55.000Z,605,exp
+606,606,25.72,"b'Hinckley, Ohio'",US,2016-11-24T04:16:07.000Z,606,exp
+607,607,58.95,"b'Herndon, Virginia'",US,2016-11-24T04:16:11.000Z,607,exp
+608,608,425,"b'Staten Island, New York'",US,2016-11-24T04:16:17.000Z,608,exp
+609,609,10.99,"b'Surprise, Arizona'",US,2016-11-24T04:16:30.000Z,609,exp
+610,610,34.25,"b'Maryland Heights, Missouri'",US,2016-11-24T04:16:36.000Z,610,exp
+611,611,25.72,"b'Hinckley, Ohio'",US,2016-11-24T04:16:41.000Z,611,exp
+612,612,42.36,"b'Los Angeles, California'",US,2016-11-24T04:16:47.000Z,612,exp
+613,613,25.72,"b'Hinckley, Ohio'",US,2016-11-24T04:16:51.000Z,613,exp
+614,614,420,"b'Renton, Washington'",US,2016-11-24T04:16:52.000Z,614,exp
+615,615,7.95,"b'Irvine, California'",US,2016-11-24T04:16:52.000Z,615,exp
+616,616,149,"b'Temecula, California'",US,2016-11-24T04:16:57.000Z,616,exp
+617,617,233.9,b'Multiple Locations',US,2016-11-24T04:17:04.000Z,617,exp
+618,618,1700,"b'Richmond, California'",US,2016-11-24T04:17:05.000Z,618,exp
+619,619,27.93,"b'Hinckley, Ohio'",US,2016-11-24T04:17:14.000Z,619,exp
+620,620,17.99,"b'Kansas City, Kansas'",US,2016-11-24T04:17:23.000Z,620,exp
+621,621,28.5,"b'Columbus, Ohio'",US,2016-11-24T04:17:26.000Z,621,exp
+622,622,9.99,"b'Washington,DC'",US,2016-11-24T04:17:28.000Z,622,exp
+623,623,24,"b'Fort Wayne, Indiana'",US,2016-11-24T04:17:29.000Z,623,exp
+624,624,4000,"b'Staunton, Virginia'",US,2016-11-24T04:17:31.000Z,624,exp
+625,625,18.5,"b'Santa Rosa, California'",US,2016-11-24T04:17:36.000Z,625,exp
+626,626,27.93,"b'Hinckley, Ohio'",US,2016-11-24T04:17:39.000Z,626,exp
+627,627,24.95,"b'Lake Forest, Illinois'",US,2016-11-24T04:17:42.000Z,627,exp
+628,628,7.95,"b'Irvine, California'",US,2016-11-24T04:17:42.000Z,628,exp
+629,629,300,"b'Bayonne, New Jersey'",US,2016-11-24T04:17:46.000Z,629,exp
+630,630,10,"b'Bluffton, Indiana'",US,2016-11-24T04:17:46.000Z,630,exp
+631,631,149,"b'Temecula, California'",US,2016-11-24T04:17:52.000Z,631,exp
+632,632,29.99,"b'San Francisco, California'",US,2016-11-24T04:17:54.000Z,632,exp
+633,633,225,"b'Clarksville, Maryland'",US,2016-11-24T04:17:57.000Z,633,exp
+634,634,24.63,"b'Hinckley, Ohio'",US,2016-11-24T04:18:01.000Z,634,exp
+635,635,17.95,"b'Raymore, Missouri'",US,2016-11-24T04:18:02.000Z,635,exp
+636,636,7.95,"b'Irvine, California'",US,2016-11-24T04:18:17.000Z,636,exp
+637,637,47,"b'Greer, South Carolina'",US,2016-11-24T04:18:19.000Z,637,exp
+638,638,17.95,"b'Brick, New Jersey'",US,2016-11-24T04:18:23.000Z,638,exp
+639,639,24.63,"b'Hinckley, Ohio'",US,2016-11-24T04:18:33.000Z,639,exp
+640,640,15.99,"b'Los Angeles, California'",US,2016-11-24T04:18:47.000Z,640,exp
+641,641,8.94,"b'Alvarado, Texas'",US,2016-11-24T04:18:49.000Z,641,exp
+642,642,62.31,b'Multiple Locations',US,2016-11-24T04:18:52.000Z,642,exp
+643,643,15,"b'Minot AFB, North Dakota'",US,2016-11-24T04:19:06.000Z,643,exp
+644,644,28.06,"b'Hinckley, Ohio'",US,2016-11-24T04:19:18.000Z,644,exp
+645,645,4.99,"b'Ferryville, Wisconsin'",US,2016-11-24T04:19:17.000Z,645,exp
+646,646,16,"b'Pompano Beach, Florida'",US,2016-11-24T04:19:35.000Z,646,exp
+647,647,68.62,b'Multiple Locations',US,2016-11-24T04:19:35.000Z,647,exp
+648,648,7.95,"b'Irvine, California'",US,2016-11-24T04:19:37.000Z,648,exp
+649,649,12.95,"b'Wichita, Kansas'",US,2016-11-24T04:19:40.000Z,649,exp
+650,650,34.25,"b'Maryland Heights, Missouri'",US,2016-11-24T04:19:46.000Z,650,exp
+651,651,148,"b'Kapaa, Hawaii'",US,2016-11-24T04:19:55.000Z,651,exp
+652,652,149,"b'Temecula, California'",US,2016-11-24T04:20:03.000Z,652,exp
+653,653,23.98,"b'Sierra Vista, Arizona'",US,2016-11-24T04:20:05.000Z,653,exp
+654,654,12.99,"b'Germantown, Tennessee'",US,2016-11-24T04:20:11.000Z,654,exp
+655,655,1.99,"b'Albany, Illinois'",US,2016-11-24T04:20:13.000Z,655,exp
+656,656,7.95,"b'Irvine, California'",US,2016-11-24T04:20:13.000Z,656,exp
+657,657,55.45,b'Multiple Locations',US,2016-11-24T04:20:22.000Z,657,exp
+658,658,8.8,"b'San Francisco, California'",US,2016-11-24T04:20:38.000Z,658,exp
+659,659,125,"b'Sherman, Texas'",US,2016-11-24T04:20:37.000Z,659,exp
+660,660,11.95,"b'Schaumburg, Illinois'",US,2016-11-24T04:20:44.000Z,660,exp
+661,661,2,"b'Orlando, Florida'",US,2016-11-24T04:20:48.000Z,661,exp
+662,662,1399.99,"b'San Diego, California'",US,2016-11-24T04:20:58.000Z,662,exp
+663,663,24.95,"b'Pompano Beach, Florida'",US,2016-11-24T04:20:58.000Z,663,exp
+664,664,2600,"b'Brooklyn, New York'",US,2016-11-24T04:21:08.000Z,664,exp
+665,665,10.99,"b'Salt Lake City, Utah'",US,2016-11-24T04:21:11.000Z,665,exp
+666,666,75,"b'Brownville, New York'",US,2016-11-24T04:21:20.000Z,666,exp
+667,667,75,"b'Silver Spring, Maryland'",US,2016-11-24T04:21:39.000Z,667,exp
+668,668,54.95,"b'Sebring, Florida'",US,2016-11-24T04:21:46.000Z,668,exp
+669,669,114.95,"b'Hinckley, Ohio'",US,2016-11-24T04:21:47.000Z,669,exp
+670,670,4.25,"b'Oxnard, California'",US,2016-11-24T04:21:54.000Z,670,exp
+671,671,114.95,"b'Hinckley, Ohio'",US,2016-11-24T04:21:56.000Z,671,exp
+672,672,40.5,"b'Dallas, Texas'",US,2016-11-24T04:21:58.000Z,672,exp
+673,673,18.07,"b'Pompano Beach, Florida'",US,2016-11-24T04:21:59.000Z,673,exp
+674,674,227.96,b'Multiple Locations',US,2016-11-24T04:22:11.000Z,674,exp
+675,675,390,"b'New Britain, Connecticut'",US,2016-11-24T04:22:16.000Z,675,exp
+676,676,114.95,"b'Hinckley, Ohio'",US,2016-11-24T04:22:25.000Z,676,exp
+677,677,14.99,"b'Elizabethtown, Kentucky'",US,2016-11-24T04:22:33.000Z,677,exp
+678,678,6.99,"b'Calimesa, California'",US,2016-11-24T04:22:33.000Z,678,exp
+679,679,33.99,b'Delaware',US,2016-11-24T04:22:33.000Z,679,exp
+680,680,18.14,"b'Pompano Beach, Florida'",US,2016-11-24T04:22:45.000Z,680,exp
+681,681,69.5,"b'Brooklyn, New York'",US,2016-11-24T04:22:48.000Z,681,exp
+682,682,15,"b'Surprise, Arizona'",US,2016-11-24T12:00:07.000Z,682,exp
+683,683,2.51,"b'Troy, Michigan'",US,2016-11-24T04:23:04.000Z,683,exp
+684,684,12.99,"b'Germantown, Tennessee'",US,2016-11-24T04:23:04.000Z,684,exp
+685,685,766.35,b'USA',US,2016-11-24T04:23:10.000Z,685,exp
+686,686,20.93,b'USA',US,2016-11-24T04:23:10.000Z,686,exp
+687,687,23.62,b'USA',US,2016-11-24T04:23:10.000Z,687,exp
+688,688,28.5,b'USA',US,2016-11-24T04:23:11.000Z,688,exp
+689,689,45.86,b'USA',US,2016-11-24T04:23:12.000Z,689,exp
+690,690,18.95,"b'Pompano Beach, Florida'",US,2016-11-24T04:23:14.000Z,690,exp
+691,691,20.99,"b'Mora, Minnesota'",US,2016-11-24T04:23:17.000Z,691,exp
+692,692,7500,"b'Portland, Oregon'",US,2017-02-05T19:00:54.000Z,692,exp
+693,693,72.16,b'Multiple Locations',US,2016-11-24T04:23:27.000Z,693,exp
+694,694,59.95,"b'Brentwood, Tennessee'",US,2016-11-24T04:23:27.000Z,694,exp
+695,695,149,"b'Temecula, California'",US,2016-11-24T04:23:29.000Z,695,exp
+696,696,134.99,"b'Saint Louis, Missouri'",US,2016-11-24T04:23:30.000Z,696,exp
+697,697,325,"b'Los Angeles, California'",US,2016-11-24T04:23:31.000Z,697,exp
+698,698,34.25,"b'Maryland Heights, Missouri'",US,2016-11-24T04:23:32.000Z,698,exp
+699,699,15,"b'Minot AFB, North Dakota'",US,2016-11-24T04:23:36.000Z,699,exp
+700,700,17.99,"b'Broken Arrow, Oklahoma'",US,2016-11-24T04:23:41.000Z,700,exp
+701,701,29.99,"b'Chesapeake, Virginia'",US,2016-11-24T04:23:42.000Z,701,exp
+702,702,87.13,"b'Hinckley, Ohio'",US,2016-11-24T04:23:46.000Z,702,exp
+703,703,8,"b'Tucson, Arizona'",US,2016-11-24T04:23:46.000Z,703,exp
+704,704,249,"b'Los Angeles, California'",US,2016-11-24T04:23:47.000Z,704,exp
+705,705,87.13,"b'Hinckley, Ohio'",US,2016-11-24T04:23:55.000Z,705,exp
+706,706,21.35,"b'Pompano Beach, Florida'",US,2016-11-24T04:24:01.000Z,706,exp
+707,707,15,"b'Minot AFB, North Dakota'",US,2016-11-24T04:24:07.000Z,707,exp
+708,708,9.99,"b'Santa Rita, Guam'",US,2016-11-24T04:24:16.000Z,708,exp
+709,709,7.99,"b'Queensbury, New York'",US,2016-11-24T04:24:21.000Z,709,exp
+710,710,35,"b'Silver Spring, Maryland'",US,2016-11-24T04:33:56.000Z,710,exp
+711,711,99.99,"b'Ardmore, Oklahoma'",US,2016-11-24T04:24:22.000Z,711,exp
+712,712,75,"b'Manteca, California'",US,2016-11-24T04:24:31.000Z,712,exp
+713,713,55,"b'Manteca, California'",US,2016-11-24T04:24:31.000Z,713,exp
+714,714,15,"b'Minot AFB, North Dakota'",US,2016-11-24T04:24:35.000Z,714,exp
+715,715,87.13,"b'Hinckley, Ohio'",US,2016-11-24T04:24:36.000Z,715,exp
+716,716,29,"b'Greer, South Carolina'",US,2016-11-24T04:24:36.000Z,716,exp
+717,717,39.99,"b'Lindstrom, Minnesota'",US,2016-11-24T04:24:41.000Z,717,exp
+718,718,12.95,"b'Katy, Texas'",US,2016-11-24T04:24:47.000Z,718,exp
+719,719,87.13,"b'Hinckley, Ohio'",US,2016-11-24T04:24:55.000Z,719,exp
+720,720,8.75,"b'Tinley Park, Illinois'",US,2016-11-24T04:24:54.000Z,720,exp
+721,721,19.59,"b'Durham, North Carolina'",US,2016-11-24T04:25:08.000Z,721,exp
+722,722,4.99,"b'Summerfield, North Carolina'",US,2016-11-24T04:25:09.000Z,722,exp
+723,723,20,"b'Bellevue, Washington'",US,2016-11-24T04:25:39.000Z,723,exp
+724,724,15,"b'Minot AFB, North Dakota'",US,2016-11-24T04:25:40.000Z,724,exp
+725,725,32.99,"b'Miami, Florida'",US,2016-11-24T04:25:47.000Z,725,exp
+726,726,87.13,"b'Hinckley, Ohio'",US,2016-11-24T04:25:48.000Z,726,exp
+727,727,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:25:59.000Z,727,exp
+728,728,1499,"b'Staten Island, New York'",US,2016-11-24T04:26:03.000Z,728,exp
+729,729,15,"b'Minot AFB, North Dakota'",US,2016-11-24T04:26:12.000Z,729,exp
+730,730,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:26:20.000Z,730,exp
+731,731,99.12,"b'Hinckley, Ohio'",US,2016-11-24T04:26:29.000Z,731,exp
+732,732,12.95,"b'Katy, Texas'",US,2016-11-24T04:26:35.000Z,732,exp
+733,733,34.25,"b'Maryland Heights, Missouri'",US,2016-11-24T04:26:38.000Z,733,exp
+734,734,149,"b'Lorena, Texas'",US,2016-11-24T04:26:40.000Z,734,exp
+735,735,99.12,"b'Hinckley, Ohio'",US,2016-11-24T04:26:52.000Z,735,exp
+736,736,95.99,"b'Pompano Beach, Florida'",US,2016-11-24T04:27:00.000Z,736,exp
+737,737,99.12,"b'Hinckley, Ohio'",US,2016-11-24T04:27:13.000Z,737,exp
+738,738,75,"b'Sacramento, California'",US,2016-11-24T04:27:16.000Z,738,exp
+739,739,9.99,"b'Jeffersonville, Indiana'",US,2016-11-24T04:27:17.000Z,739,exp
+740,740,20,"b'Nine Mile Falls, Washington'",US,2016-11-24T04:27:22.000Z,740,exp
+741,741,6.59,"b'Alto, Michigan'",US,2016-11-24T04:27:26.000Z,741,exp
+742,742,25,"b'Oak Ridge, Tennessee'",US,2016-11-24T04:27:27.000Z,742,exp
+743,743,119.95,"b'Orlando, Florida'",US,2016-11-24T04:27:27.000Z,743,exp
+744,744,4.25,"b'Oxnard, California'",US,2016-11-24T04:27:29.000Z,744,exp
+745,745,99.99,"b'Orange, California'",US,2016-11-24T04:27:29.000Z,745,exp
+746,746,46,"b'Four Oaks, North Carolina'",US,2016-11-24T04:27:29.000Z,746,exp
+747,747,45.85,"b'Granby, Massachusetts'",US,2016-11-24T04:27:38.000Z,747,exp
+748,748,125,"b'Wadsworth, Illinois'",US,2016-11-24T04:27:44.000Z,748,exp
+749,749,499,"b'Staten Island, New York'",US,2016-11-24T04:27:46.000Z,749,exp
+750,750,475,"b'Staten Island, New York'",US,2016-11-24T04:27:47.000Z,750,exp
+751,751,8.4,"b'Ontario, California'",US,2016-11-24T04:27:49.000Z,751,exp
+752,752,10.99,"b'Brainerd, Minnesota'",US,2016-11-24T04:28:03.000Z,752,exp
+753,753,2,"b'Orlando, Florida'",US,2016-11-24T04:28:04.000Z,753,exp
+754,754,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:28:18.000Z,754,exp
+755,755,59.95,b'Tennessee',US,2016-11-24T04:28:28.000Z,755,exp
+756,756,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:28:38.000Z,756,exp
+757,757,24.95,"b'Ballantine, Montana'",US,2016-11-24T04:28:37.000Z,757,exp
+758,758,13.95,"b'Pico Rivera, California'",US,2016-11-24T04:28:42.000Z,758,exp
+759,759,6,"b'Portland, Oregon'",US,2016-11-24T04:28:44.000Z,759,exp
+760,760,67.99,"b'Saint Louis, Missouri'",US,2016-11-24T04:28:46.000Z,760,exp
+761,761,7.99,"b'Queensbury, New York'",US,2016-11-24T04:28:53.000Z,761,exp
+762,762,8.99,"b'Osceola, Wisconsin'",US,2016-11-24T04:29:00.000Z,762,exp
+763,763,195,"b'Henderson, Nevada'",US,2016-11-24T04:28:59.000Z,763,exp
+764,764,20,"b'Newport Beach, California'",US,2016-11-24T04:29:27.000Z,764,exp
+765,765,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:29:30.000Z,765,exp
+766,766,20,"b'Newport Beach, California'",US,2016-11-24T04:29:32.000Z,766,exp
+767,767,34.25,"b'Maryland Heights, Missouri'",US,2016-11-24T04:29:34.000Z,767,exp
+768,768,25,"b'Sherman Oaks, California'",US,2016-11-24T04:29:44.000Z,768,exp
+769,769,9,"b'Cleveland, Ohio'",US,2016-11-24T04:30:00.000Z,769,exp
+770,770,50,"b'Brooklyn, New York'",US,2016-11-24T04:30:06.000Z,770,exp
+771,771,4.25,"b'Oxnard, California'",US,2016-11-24T04:30:09.000Z,771,exp
+772,772,832.5,"b'New York, New York'",US,2016-11-24T04:30:10.000Z,772,exp
+773,773,29.9,"b'Covina, California'",US,2016-11-24T04:30:15.000Z,773,exp
+774,774,99.99,"b'Orlando, Florida'",US,2016-11-24T04:30:14.000Z,774,exp
+775,775,45,"b'Portland, Oregon'",US,2016-11-24T04:30:15.000Z,775,exp
+776,776,185,"b'Waukesha, Wisconsin'",US,2016-11-24T04:30:25.000Z,776,exp
+777,777,149,"b'Temecula, California'",US,2016-11-24T04:30:29.000Z,777,exp
+778,778,21.35,"b'Pompano Beach, Florida'",US,2016-11-24T04:30:33.000Z,778,exp
+779,779,9.99,"b'Tucson, Arizona'",US,2016-11-24T04:30:44.000Z,779,exp
+780,780,39.95,"b'Chinook, Washington'",US,2016-11-24T04:45:40.000Z,780,exp
+781,781,12.5,"b'Louisville, Kentucky'",US,2016-11-24T04:30:49.000Z,781,exp
+782,782,550,"b'Renton, Washington'",US,2016-11-24T04:30:49.000Z,782,exp
+783,783,9.99,"b'Anaheim, California'",US,2016-11-24T04:30:51.000Z,783,exp
+784,784,15.99,"b'Indianapolis, Indiana'",US,2016-11-24T04:31:02.000Z,784,exp
+785,785,44.95,"b'Haddon Heights, New Jersey'",US,2016-11-24T04:31:05.000Z,785,exp
+786,786,32.69,"b'Rancho Cucamonga, California'",US,2016-11-24T04:31:12.000Z,786,exp
+787,787,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T04:31:23.000Z,787,exp
+788,788,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T04:31:25.000Z,788,exp
+789,789,300,"b'Plant City, Florida'",US,2016-11-24T04:31:25.000Z,789,exp
+790,790,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T04:31:31.000Z,790,exp
+791,791,6.53,"b'Bard, California'",US,2016-11-24T04:31:31.000Z,791,exp
+792,792,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T04:31:33.000Z,792,exp
+793,793,114.95,"b'Hinckley, Ohio'",US,2016-11-24T04:31:34.000Z,793,exp
+794,794,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T04:31:35.000Z,794,exp
+795,795,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T04:31:42.000Z,795,exp
+796,796,69,"b'Attleboro, Massachusetts'",US,2016-11-24T04:31:41.000Z,796,exp
+797,797,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:31:44.000Z,797,exp
+798,798,6.99,"b'Alto, Michigan'",US,2016-11-24T04:31:50.000Z,798,exp
+799,799,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T04:31:52.000Z,799,exp
+800,800,21.35,"b'Pompano Beach, Florida'",US,2016-11-24T04:31:52.000Z,800,exp
+801,801,25,"b'Niagara Falls, New York'",US,2016-11-24T04:31:53.000Z,801,exp
+802,802,1.99,"b'Harrogate, Tennessee'",US,2016-11-24T04:31:54.000Z,802,exp
+803,803,10.99,"b'Surprise, Arizona'",US,2016-11-24T04:31:54.000Z,803,exp
+804,804,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:31:55.000Z,804,exp
+805,805,22.5,"b'Tinley Park, Illinois'",US,2016-11-24T04:31:58.000Z,805,exp
+806,806,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:32:05.000Z,806,exp
+807,807,9.99,"b'San Antonio, Texas'",US,2016-11-24T04:32:05.000Z,807,exp
+808,808,142.5,"b'Smyrna, Georgia'",US,2016-11-24T05:30:09.000Z,808,exp
+809,809,26.99,"b'Lexington, Kentucky'",US,2016-11-24T04:32:15.000Z,809,exp
+810,810,37.77,"b'Columbus, Ohio'",US,2016-11-25T02:00:21.000Z,810,exp
+811,811,49.97,"b'Woodland, California'",US,2016-11-24T04:32:23.000Z,811,exp
+812,812,5.95,"b'Guilford, Connecticut'",US,2016-11-24T04:32:33.000Z,812,exp
+813,813,8.99,"b'Tucson, Arizona'",US,2016-11-24T04:32:38.000Z,813,exp
+814,814,65.95,"b'East Wenatchee, Washington'",US,2016-11-24T04:32:45.000Z,814,exp
+815,815,14.99,"b'Godfrey, Illinois'",US,2016-11-24T04:32:46.000Z,815,exp
+816,816,17.97,"b'Woodland, California'",US,2016-11-24T04:32:46.000Z,816,exp
+817,817,2.99,"b'Diamond Bar, California'",US,2016-11-24T04:32:52.000Z,817,exp
+818,818,208.99,"b'Plainsboro, New Jersey'",US,2016-11-24T04:32:53.000Z,818,exp
+819,819,10,"b'Tucson, Arizona'",US,2016-11-24T04:32:54.000Z,819,exp
+820,820,114.95,"b'Hinckley, Ohio'",US,2016-11-24T04:33:01.000Z,820,exp
+821,821,177.49,"b'Los Angeles, California'",US,2016-11-24T04:33:09.000Z,821,exp
+822,822,21.99,"b'Austin, Texas'",US,2016-11-24T04:33:17.000Z,822,exp
+823,823,114.95,"b'Hinckley, Ohio'",US,2016-11-24T04:33:21.000Z,823,exp
+824,824,1.99,"b'Haverhill, Massachusetts'",US,2016-11-24T04:33:37.000Z,824,exp
+825,825,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:33:42.000Z,825,exp
+826,826,117,"b'Virginia Beach, Virginia'",US,2016-11-25T03:00:42.000Z,826,exp
+827,827,4.25,"b'Oxnard, California'",US,2016-11-24T04:33:52.000Z,827,exp
+828,828,0.99,"b'Micanopy, Florida'",US,2016-11-24T04:34:08.000Z,828,exp
+829,829,1.99,"b'Micanopy, Florida'",US,2016-11-24T04:34:08.000Z,829,exp
+830,830,4.99,"b'Micanopy, Florida'",US,2016-11-24T04:34:08.000Z,830,exp
+831,831,17.99,"b'Russell, Pennsylvania'",US,2016-11-24T04:34:08.000Z,831,exp
+832,832,7.99,"b'Tucson, Arizona'",US,2016-11-24T04:34:16.000Z,832,exp
+833,833,114.95,"b'Hinckley, Ohio'",US,2016-11-24T04:34:23.000Z,833,exp
+834,834,3.99,"b'Brainerd, Minnesota'",US,2016-11-24T04:34:30.000Z,834,exp
+835,835,49.99,"b'Laingsburg, Michigan'",US,2016-11-24T04:34:36.000Z,835,exp
+836,836,37.79,"b'Springville, Utah'",US,2016-11-24T04:34:37.000Z,836,exp
+837,837,9.99,"b'Windsor, North Carolina'",US,2016-11-24T04:34:47.000Z,837,exp
+838,838,23.5,b'United States',US,2016-11-24T04:34:47.000Z,838,exp
+839,839,114.95,"b'Hinckley, Ohio'",US,2016-11-24T04:34:54.000Z,839,exp
+840,840,32.69,"b'Rancho Cucamonga, California'",US,2016-11-24T04:34:56.000Z,840,exp
+841,841,21.35,"b'Pompano Beach, Florida'",US,2016-11-24T04:35:12.000Z,841,exp
+842,842,128,"b'Lynnwood, Washington'",US,2016-11-24T04:35:15.000Z,842,exp
+843,843,129.99,"b'Orange, California'",US,2016-11-24T04:35:16.000Z,843,exp
+844,844,9,"b'Portland, Oregon'",US,2016-11-24T04:35:16.000Z,844,exp
+845,845,29.99,"b'Monson, Massachusetts'",US,2016-11-24T04:35:20.000Z,845,exp
+846,846,2,"b'Orlando, Florida'",US,2016-11-24T04:35:26.000Z,846,exp
+847,847,17.09,b'California',US,2016-11-24T04:35:26.000Z,847,exp
+848,848,69,"b'Sacramento, California'",US,2016-11-24T04:35:34.000Z,848,exp
+849,849,25.82,"b'Mirror Lake, New Hampshire'",US,2016-11-24T04:35:35.000Z,849,exp
+850,850,4.25,"b'Oxnard, California'",US,2016-11-24T04:35:37.000Z,850,exp
+851,851,129.99,"b'Saint Louis, Missouri'",US,2016-11-24T04:35:39.000Z,851,exp
+852,852,14.99,"b'Burlington, Massachusetts'",US,2016-11-24T04:35:40.000Z,852,exp
+853,853,100,"b'Birmingham, Alabama'",US,2016-11-24T04:35:46.000Z,853,exp
+854,854,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:35:48.000Z,854,exp
+855,855,34.99,"b'Saginaw, Michigan'",US,2016-11-24T04:35:55.000Z,855,exp
+856,856,34.99,"b'Saint Louis, Missouri'",US,2016-11-24T04:36:07.000Z,856,exp
+857,857,59.95,"b'San Marcos, Texas'",US,2016-11-24T04:36:08.000Z,857,exp
+858,858,35,"b'Bettendorf, Iowa'",US,2016-11-24T04:36:18.000Z,858,exp
+859,859,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:36:21.000Z,859,exp
+860,860,29.99,"b'West Burlington, Iowa'",US,2016-11-24T04:36:22.000Z,860,exp
+861,861,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:36:41.000Z,861,exp
+862,862,3.95,"b'Guilford, Connecticut'",US,2016-11-24T04:36:44.000Z,862,exp
+863,863,49.99,"b'Wallingford, Pennsylvania'",US,2016-11-24T04:37:03.000Z,863,exp
+864,864,24.95,"b'Diamond Bar, California'",US,2016-11-24T04:37:10.000Z,864,exp
+865,865,33.95,"b'Albany, Kentucky'",US,2016-11-24T04:37:10.000Z,865,exp
+866,866,4.25,"b'Oxnard, California'",US,2016-11-24T04:37:20.000Z,866,exp
+867,867,5.98,"b'Hayward, California'",US,2016-11-24T04:37:35.000Z,867,exp
+868,868,19.99,"b'Hayward, California'",US,2016-11-24T04:37:35.000Z,868,exp
+869,869,4.79,"b'Hayward, California'",US,2016-11-24T04:37:35.000Z,869,exp
+870,870,300,"b'Mountain Top, Pennsylvania'",US,2016-11-24T04:37:38.000Z,870,exp
+871,871,87.13,"b'Hinckley, Ohio'",US,2016-11-24T04:37:41.000Z,871,exp
+872,872,21.35,"b'Pompano Beach, Florida'",US,2016-11-24T04:37:45.000Z,872,exp
+873,873,22.5,"b'Tinley Park, Illinois'",US,2016-11-24T04:37:56.000Z,873,exp
+874,874,99.99,"b'Orange, California'",US,2016-11-24T04:38:05.000Z,874,exp
+875,875,2,"b'Portland, Oregon'",US,2016-11-24T04:38:10.000Z,875,exp
+876,876,87.13,"b'Hinckley, Ohio'",US,2016-11-24T04:38:12.000Z,876,exp
+877,877,87.99,"b'Agoura Hills, California'",US,2016-11-24T04:38:14.000Z,877,exp
+878,878,69.95,"b'Flatwoods, Kentucky'",US,2016-11-24T04:38:24.000Z,878,exp
+879,879,12,"b'Reading, Pennsylvania'",US,2016-11-24T04:38:35.000Z,879,exp
+880,880,94.99,"b'Medina, Ohio'",US,2016-11-24T04:38:41.000Z,880,exp
+881,881,59,"b'Lincoln, Nebraska'",US,2016-11-24T04:38:47.000Z,881,exp
+882,882,25,"b'Niagara Falls, New York'",US,2016-11-24T04:39:05.000Z,882,exp
+883,883,21.99,"b'Monson, Massachusetts'",US,2016-11-24T04:39:12.000Z,883,exp
+884,884,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:39:13.000Z,884,exp
+885,885,24.99,"b'Marietta, Oklahoma'",US,2016-11-24T04:39:15.000Z,885,exp
+886,886,16,"b'Bronx, New York'",US,2016-11-24T04:39:21.000Z,886,exp
+887,887,5.99,"b'Lawrenceville, Georgia'",US,2016-11-24T04:39:24.000Z,887,exp
+888,888,21.35,"b'Pompano Beach, Florida'",US,2016-11-24T04:39:27.000Z,888,exp
+889,889,21.35,"b'Pompano Beach, Florida'",US,2016-11-24T04:39:36.000Z,889,exp
+890,890,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:39:47.000Z,890,exp
+891,891,8,"b'Lemon Grove, California'",US,2016-11-24T04:39:53.000Z,891,exp
+892,892,8,"b'Lemon Grove, California'",US,2016-11-24T04:39:54.000Z,892,exp
+893,893,130,"b'Nine Mile Falls, Washington'",US,2016-11-24T04:40:00.000Z,893,exp
+894,894,39.99,"b'Floyd, Virginia'",US,2016-11-24T04:40:02.000Z,894,exp
+895,895,24.99,"b'Marietta, Oklahoma'",US,2016-11-24T04:40:05.000Z,895,exp
+896,896,20,"b'Tucson, Arizona'",US,2016-11-24T04:40:06.000Z,896,exp
+897,897,8,"b'Portland, Oregon'",US,2016-11-24T04:40:09.000Z,897,exp
+898,898,78,"b'Lynnwood, Washington'",US,2016-11-24T04:40:16.000Z,898,exp
+899,899,128,"b'Lynnwood, Washington'",US,2016-11-24T04:40:16.000Z,899,exp
+900,900,128,"b'Lynnwood, Washington'",US,2016-11-24T04:40:16.000Z,900,exp
+901,901,122.5,"b'Boulder, Colorado'",US,2016-11-24T04:40:41.000Z,901,exp
+902,902,36.99,"b'Snohomish, Washington'",US,2016-11-24T04:40:42.000Z,902,exp
+903,903,17.09,b'California',US,2016-11-24T04:40:46.000Z,903,exp
+904,904,112.5,"b'Topeka, Kansas'",US,2016-11-24T04:40:52.000Z,904,exp
+905,905,11.95,"b'San Jose, California'",US,2016-11-24T04:41:02.000Z,905,exp
+906,906,34.99,"b'Marietta, Oklahoma'",US,2016-11-24T04:41:05.000Z,906,exp
+907,907,23.5,"b'Spokane, Washington'",US,2016-11-25T01:00:09.000Z,907,exp
+908,908,29.5,"b'Skokie, Illinois'",US,2016-11-24T04:41:30.000Z,908,exp
+909,909,295,"b'Redondo Beach, California'",US,2016-11-24T04:41:31.000Z,909,exp
+910,910,32.69,"b'Rancho Cucamonga, California'",US,2016-11-24T04:41:38.000Z,910,exp
+911,911,4.99,"b'Blue Ridge, Texas'",US,2016-11-24T04:41:40.000Z,911,exp
+912,912,170.95,"b'Virginia Beach, Virginia'",US,2016-11-24T04:41:46.000Z,912,exp
+913,913,37.79,"b'Springville, Utah'",US,2016-11-24T04:41:55.000Z,913,exp
+914,914,7.99,"b'Alto, Michigan'",US,2016-11-24T04:42:01.000Z,914,exp
+915,915,29.95,"b'Tacoma, Washington'",US,2016-11-24T04:42:02.000Z,915,exp
+916,916,4.99,"b'Brainerd, Minnesota'",US,2016-11-24T04:42:02.000Z,916,exp
+917,917,149,"b'Temecula, California'",US,2016-11-24T04:42:03.000Z,917,exp
+918,918,9.99,"b'Lake in the Hills, Illinois'",US,2016-11-24T04:42:03.000Z,918,exp
+919,919,16.88,"b'Broken Arrow, Oklahoma'",US,2016-11-24T04:42:10.000Z,919,exp
+920,920,25.98,"b'Sierra Vista, Arizona'",US,2016-11-24T04:42:22.000Z,920,exp
+921,921,114.95,"b'Hinckley, Ohio'",US,2016-11-24T04:42:26.000Z,921,exp
+922,922,14.96,"b'Deltona, Florida'",US,2016-11-24T04:42:30.000Z,922,exp
+923,923,114.95,"b'Hinckley, Ohio'",US,2016-11-24T04:42:38.000Z,923,exp
+924,924,200,b'US',US,2016-11-24T04:42:39.000Z,924,exp
+925,925,69.99,"b'Wausau, Wisconsin'",US,2016-11-24T04:42:58.000Z,925,exp
+926,926,7.99,"b'La Palma, California'",US,2016-11-24T04:43:25.000Z,926,exp
+927,927,16.99,"b'Carson, California'",US,2016-11-24T04:43:31.000Z,927,exp
+928,928,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:43:32.000Z,928,exp
+929,929,7.99,"b'Detroit, Michigan'",US,2016-11-24T04:43:39.000Z,929,exp
+930,930,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:43:42.000Z,930,exp
+931,931,15.5,"b'Apollo Beach, Florida'",US,2016-11-24T04:43:47.000Z,931,exp
+932,932,88,b'Texas',US,2016-11-24T04:43:53.000Z,932,exp
+933,933,108,b'Texas',US,2016-11-24T04:43:53.000Z,933,exp
+934,934,145,"b'Temecula, California'",US,2016-11-24T04:43:58.000Z,934,exp
+935,935,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:44:05.000Z,935,exp
+936,936,8.59,"b'Alto, Michigan'",US,2016-11-24T04:44:07.000Z,936,exp
+937,937,109,"b'Wyoming, Michigan'",US,2016-11-24T04:44:11.000Z,937,exp
+938,938,18.95,"b'Fort Lauderdale, Florida'",US,2016-11-24T04:44:15.000Z,938,exp
+939,939,21.99,"b'Monson, Massachusetts'",US,2016-11-24T04:44:24.000Z,939,exp
+940,940,106.4,"b'Hinckley, Ohio'",US,2016-11-24T04:44:27.000Z,940,exp
+941,941,84.99,"b'Tarzana, California'",US,2016-11-24T04:44:52.000Z,941,exp
+942,942,98.8,"b'Hinckley, Ohio'",US,2016-11-24T04:45:03.000Z,942,exp
+943,943,25.99,"b'Tucson, Arizona'",US,2016-11-24T04:45:11.000Z,943,exp
+944,944,27.99,"b'Tucson, Arizona'",US,2016-11-24T04:45:11.000Z,944,exp
+945,945,39.99,"b'Floyd, Virginia'",US,2016-11-24T04:45:18.000Z,945,exp
+946,946,29.99,"b'Arlington, Virginia'",US,2016-11-24T04:45:33.000Z,946,exp
+947,947,16,"b'Pocatello, Idaho'",US,2016-11-24T04:45:40.000Z,947,exp
+948,948,14,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:40.000Z,948,exp
+949,949,20,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:40.000Z,949,exp
+950,950,25,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:40.000Z,950,exp
+951,951,18,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:40.000Z,951,exp
+952,952,12,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,952,exp
+953,953,30,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:40.000Z,953,exp
+954,954,16,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,954,exp
+955,955,130,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:40.000Z,955,exp
+956,956,12,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:40.000Z,956,exp
+957,957,12,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,957,exp
+958,958,12,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,958,exp
+959,959,16,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,959,exp
+960,960,12,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,960,exp
+961,961,35,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,961,exp
+962,962,25,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,962,exp
+963,963,14,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,963,exp
+964,964,14,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,964,exp
+965,965,12,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,965,exp
+966,966,12,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,966,exp
+967,967,14,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,967,exp
+968,968,18,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,968,exp
+969,969,12,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,969,exp
+970,970,20,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,970,exp
+971,971,12,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,971,exp
+972,972,16,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,972,exp
+973,973,30,"b'Blackfoot, Idaho'",US,2016-11-24T04:45:41.000Z,973,exp
+974,974,149.99,"b'Belleville, Illinois'",US,2016-11-24T04:46:01.000Z,974,exp
+975,975,60,"b'Twin Lakes, Wisconsin'",US,2016-11-24T04:46:03.000Z,975,exp
+976,976,6.5,"b'Brighton, Michigan'",US,2016-11-24T04:46:03.000Z,976,exp
+977,977,34.99,"b'Snohomish, Washington'",US,2016-11-24T04:46:08.000Z,977,exp
+978,978,22,"b'Newport, Tennessee'",US,2016-11-24T04:46:17.000Z,978,exp
+979,979,93.53,b'Multiple Location',US,2016-11-24T04:46:19.000Z,979,exp
+980,980,15,"b'Vero Beach, Florida'",US,2016-11-24T04:46:20.000Z,980,exp
+981,981,36.99,"b'Vero Beach, Florida'",US,2016-11-24T04:46:20.000Z,981,exp
+982,982,7.95,"b'Linden, Michigan'",US,2016-11-24T04:46:22.000Z,982,exp
+983,983,98.8,"b'Hinckley, Ohio'",US,2016-11-24T04:46:32.000Z,983,exp
+984,984,5.95,"b'Grand Saline, Texas'",US,2016-11-24T04:46:44.000Z,984,exp
+985,985,145,"b'Temecula, California'",US,2016-11-24T04:46:47.000Z,985,exp
+986,986,9.95,"b'Flat Rock, Michigan'",US,2016-11-24T04:46:52.000Z,986,exp
+987,987,6.5,"b'Milwaukee, Wisconsin'",US,2016-11-24T04:47:03.000Z,987,exp
+988,988,6.99,"b'Detroit, Michigan'",US,2016-11-24T04:47:17.000Z,988,exp
+989,989,112.58,"b'Hinckley, Ohio'",US,2016-11-24T04:47:31.000Z,989,exp
+990,990,8,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:33.000Z,990,exp
+991,991,10,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:34.000Z,991,exp
+992,992,8,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:34.000Z,992,exp
+993,993,8,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:34.000Z,993,exp
+994,994,10,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:34.000Z,994,exp
+995,995,12,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:34.000Z,995,exp
+996,996,12,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:35.000Z,996,exp
+997,997,8,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:35.000Z,997,exp
+998,998,10,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:35.000Z,998,exp
+999,999,10,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:35.000Z,999,exp
+1000,1000,8,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:35.000Z,1000,exp
+1001,1001,8,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:35.000Z,1001,exp
+1002,1002,10,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:35.000Z,1002,exp
+1003,1003,12,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:35.000Z,1003,exp
+1004,1004,8,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:35.000Z,1004,exp
+1005,1005,10,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:35.000Z,1005,exp
+1006,1006,12,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:35.000Z,1006,exp
+1007,1007,10,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:35.000Z,1007,exp
+1008,1008,10,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:36.000Z,1008,exp
+1009,1009,10,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:36.000Z,1009,exp
+1010,1010,8,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:36.000Z,1010,exp
+1011,1011,6.5,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:36.000Z,1011,exp
+1012,1012,10,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:36.000Z,1012,exp
+1013,1013,8,"b'Blackfoot, Idaho'",US,2016-11-24T04:47:36.000Z,1013,exp
+1014,1014,112.58,"b'Hinckley, Ohio'",US,2016-11-24T04:47:44.000Z,1014,exp
+1015,1015,12.99,"b'Germantown, Tennessee'",US,2016-11-24T04:47:45.000Z,1015,exp
+1016,1016,209.99,"b'Belleville, Illinois'",US,2016-11-24T04:48:01.000Z,1016,exp
+1017,1017,23.99,"b'Lexington, Kentucky'",US,2016-11-24T04:48:01.000Z,1017,exp
+1018,1018,12,"b'Houston, Texas'",US,2016-11-24T04:48:14.000Z,1018,exp
+1019,1019,750,"b'Beaverton, Oregon'",US,2016-11-24T04:48:16.000Z,1019,exp
+1020,1020,6.99,"b'Indianapolis, Indiana'",US,2016-11-24T04:48:19.000Z,1020,exp
+1021,1021,7.75,"b'Los Angeles, California'",US,2016-11-24T04:48:19.000Z,1021,exp
+1022,1022,6.99,"b'Detroit, Michigan'",US,2016-11-24T04:48:21.000Z,1022,exp
+1023,1023,112.58,"b'Hinckley, Ohio'",US,2016-11-24T04:48:27.000Z,1023,exp
+1024,1024,149,"b'Temecula, California'",US,2016-11-24T04:48:30.000Z,1024,exp
+1025,1025,39.99,"b'Little Elm, Texas'",US,2016-11-24T04:48:35.000Z,1025,exp
+1026,1026,5.99,b'89434',US,2016-11-24T04:48:37.000Z,1026,exp
+1027,1027,20,"b'Portland, Oregon'",US,2016-11-24T04:48:40.000Z,1027,exp
+1028,1028,112.58,"b'Hinckley, Ohio'",US,2016-11-24T04:48:43.000Z,1028,exp
+1029,1029,5.99,b'89434',US,2016-11-24T04:48:46.000Z,1029,exp
+1030,1030,8,"b'Lemon Grove, California'",US,2016-11-24T04:48:50.000Z,1030,exp
+1031,1031,8,"b'Lemon Grove, California'",US,2016-11-24T04:48:50.000Z,1031,exp
+1032,1032,8,"b'Lemon Grove, California'",US,2016-11-24T04:48:50.000Z,1032,exp
+1033,1033,8,"b'Lemon Grove, California'",US,2016-11-24T04:48:51.000Z,1033,exp
+1034,1034,8,"b'Lemon Grove, California'",US,2016-11-24T04:48:50.000Z,1034,exp
+1035,1035,8,"b'Lemon Grove, California'",US,2016-11-24T04:48:50.000Z,1035,exp
+1036,1036,8,"b'Lemon Grove, California'",US,2016-11-24T04:48:51.000Z,1036,exp
+1037,1037,49.99,"b'Cincinnati, Ohio'",US,2016-11-24T04:49:02.000Z,1037,exp
+1038,1038,5.99,b'89434',US,2016-11-24T04:49:03.000Z,1038,exp
+1039,1039,112.58,"b'Hinckley, Ohio'",US,2016-11-24T04:49:12.000Z,1039,exp
+1040,1040,6.99,"b'Detroit, Michigan'",US,2016-11-24T04:49:24.000Z,1040,exp
+1041,1041,112.58,"b'Hinckley, Ohio'",US,2016-11-24T04:49:24.000Z,1041,exp
+1042,1042,8.95,"b'Hicksville, New York'",US,2016-11-24T04:49:29.000Z,1042,exp
+1043,1043,112.58,"b'Hinckley, Ohio'",US,2016-11-24T04:49:40.000Z,1043,exp
+1044,1044,23,"b'Carrollton, Texas'",US,2016-11-24T04:50:04.000Z,1044,exp
+1045,1045,9.99,"b'Coatesville, Pennsylvania'",US,2016-11-24T04:50:05.000Z,1045,exp
+1046,1046,112.58,"b'Hinckley, Ohio'",US,2016-11-24T04:50:09.000Z,1046,exp
+1047,1047,31.99,"b'Monson, Massachusetts'",US,2016-11-24T04:50:16.000Z,1047,exp
+1048,1048,25,"b'Chillicothe, Ohio'",US,2016-11-24T04:50:17.000Z,1048,exp
+1049,1049,89.99,"b'Saint Louis, Missouri'",US,2016-11-24T04:50:19.000Z,1049,exp
+1050,1050,22.95,"b'Katy, Texas'",US,2016-11-24T04:50:22.000Z,1050,exp
+1051,1051,10.99,"b'Lawrenceville, Georgia'",US,2016-11-24T04:50:28.000Z,1051,exp
+1052,1052,15.99,"b'Snohomish, Washington'",US,2016-11-24T04:50:29.000Z,1052,exp
+1053,1053,14.5,"b'Grand Saline, Texas'",US,2016-11-24T04:50:34.000Z,1053,exp
+1054,1054,13.5,"b'Trinidad, Colorado'",US,2016-11-24T04:50:35.000Z,1054,exp
+1055,1055,112.58,"b'Hinckley, Ohio'",US,2016-11-24T04:50:52.000Z,1055,exp
+1056,1056,14,"b'Mahopac, New York'",US,2016-11-24T04:50:57.000Z,1056,exp
+1057,1057,22.97,"b'Placentia, California'",US,2016-11-24T04:51:03.000Z,1057,exp
+1058,1058,55.99,"b'Austin, Texas'",US,2016-11-24T04:51:07.000Z,1058,exp
+1059,1059,34.99,"b'Lexington, Kentucky'",US,2016-11-24T04:51:07.000Z,1059,exp
+1060,1060,9.95,"b'Wichita, Kansas'",US,2016-11-24T04:51:08.000Z,1060,exp
+1061,1061,32.05,"b'Pompano Beach, Florida'",US,2016-11-24T04:51:17.000Z,1061,exp
+1062,1062,249.99,"b'Madisonville, Kentucky'",US,2016-11-24T04:51:17.000Z,1062,exp
+1063,1063,23,"b'Portland, Oregon'",US,2016-11-24T04:51:36.000Z,1063,exp
+1064,1064,29.99,"b'Wethersfield, Connecticut'",US,2016-11-24T04:51:37.000Z,1064,exp
+1065,1065,14000,"b'Downers Grove, Illinois'",US,2016-11-24T04:51:42.000Z,1065,exp
+1066,1066,112.58,"b'Hinckley, Ohio'",US,2016-11-24T04:51:52.000Z,1066,exp
+1067,1067,2.99,"b'Martins Ferry, Ohio'",US,2016-11-24T04:52:09.000Z,1067,exp
+1068,1068,112.58,"b'Hinckley, Ohio'",US,2016-11-24T04:52:23.000Z,1068,exp
+1069,1069,20,"b'Amarillo, Texas'",US,2016-11-24T04:52:37.000Z,1069,exp
+1070,1070,32.99,"b'Mora, Minnesota'",US,2016-11-24T04:52:43.000Z,1070,exp
+1071,1071,9.99,"b'Montclair, California'",US,2016-11-24T04:52:54.000Z,1071,exp
+1072,1072,190,"b'Birmingham, Alabama'",US,2016-11-24T04:52:59.000Z,1072,exp
+1073,1073,255,"b'Cool, California'",US,2016-11-24T04:53:00.000Z,1073,exp
+1074,1074,112.58,"b'Hinckley, Ohio'",US,2016-11-24T04:53:06.000Z,1074,exp
+1075,1075,19.99,"b'Streamwood, Illinois'",US,2016-11-24T04:53:14.000Z,1075,exp
+1076,1076,9.99,"b'Somerset, New Jersey'",US,2016-11-24T04:53:16.000Z,1076,exp
+1077,1077,19.99,"b'Buffalo, New York'",US,2016-11-24T04:53:22.000Z,1077,exp
+1078,1078,12.69,b'Multi-Location',US,2016-11-24T04:53:22.000Z,1078,exp
+1079,1079,31.99,"b'Lexington, Kentucky'",US,2016-11-24T04:53:24.000Z,1079,exp
+1080,1080,72,"b'Humboldt, Tennessee'",US,2016-11-24T04:53:24.000Z,1080,exp
+1081,1081,14.99,"b'Holiday, Florida'",US,2016-11-24T04:53:25.000Z,1081,exp
+1082,1082,2.03,"b'Fort Lauderdale, Florida'",US,2016-11-24T04:53:26.000Z,1082,exp
+1083,1083,112.58,"b'Hinckley, Ohio'",US,2016-11-24T04:53:30.000Z,1083,exp
+1084,1084,16.99,"b'New York, New York'",US,2016-11-24T04:53:44.000Z,1084,exp
+1085,1085,3,"b'Portland, Oregon'",US,2016-11-24T04:53:53.000Z,1085,exp
+1086,1086,112.58,"b'Hinckley, Ohio'",US,2016-11-24T04:54:09.000Z,1086,exp
+1087,1087,354.74,"b'Willowbrook, Illinois'",US,2016-11-24T04:54:13.000Z,1087,exp
+1088,1088,59,"b'Salinas, California'",US,2016-11-24T04:54:13.000Z,1088,exp
+1089,1089,111,"b'Waynesville, Missouri'",US,2016-11-25T02:22:45.000Z,1089,exp
+1090,1090,6.99,"b'Brainerd, Minnesota'",US,2016-11-24T04:54:16.000Z,1090,exp
+1091,1091,26,"b'Laughlin, Nevada'",US,2016-11-24T04:54:17.000Z,1091,exp
+1092,1092,19.95,"b'Katy, Texas'",US,2016-11-24T04:54:22.000Z,1092,exp
+1093,1093,249.95,"b'Charlottesville, Virginia'",US,2016-11-24T04:54:23.000Z,1093,exp
+1094,1094,13.99,"b'Arvada, Colorado'",US,2016-11-24T04:54:30.000Z,1094,exp
+1095,1095,72,"b'Humboldt, Tennessee'",US,2016-11-24T04:54:31.000Z,1095,exp
+1096,1096,7.99,"b'Detroit, Michigan'",US,2016-11-24T04:54:37.000Z,1096,exp
+1097,1097,20,"b'Huntington Park, California'",US,2016-11-24T04:54:43.000Z,1097,exp
+1098,1098,9.99,"b'Omaha, Nebraska'",US,2016-11-24T04:54:59.000Z,1098,exp
+1099,1099,9.95,"b'Pompano Beach, Florida'",US,2016-11-24T04:55:02.000Z,1099,exp
+1100,1100,32.25,"b'Maryland Heights, Missouri'",US,2016-11-24T04:55:02.000Z,1100,exp
+1101,1101,12,"b'Oceanside, California'",US,2016-11-24T04:55:03.000Z,1101,exp
+1102,1102,112.58,"b'Hinckley, Ohio'",US,2016-11-24T04:55:08.000Z,1102,exp
+1103,1103,159,"b'New York, New York'",US,2016-11-24T04:55:12.000Z,1103,exp
+1104,1104,20,"b'Lemon Grove, California'",US,2016-11-24T04:55:27.000Z,1104,exp
+1105,1105,9.95,"b'Grand Saline, Texas'",US,2016-11-24T04:55:38.000Z,1105,exp
+1106,1106,38,"b'Marina, California'",US,2016-11-24T04:55:39.000Z,1106,exp
+1107,1107,72,"b'Humboldt, Tennessee'",US,2016-11-24T04:55:44.000Z,1107,exp
+1108,1108,112.58,"b'Hinckley, Ohio'",US,2016-11-24T04:55:45.000Z,1108,exp
+1109,1109,67.53,b'Multiple Locations',US,2016-11-24T04:55:51.000Z,1109,exp
+1110,1110,15.98,"b'Broken Arrow, Oklahoma'",US,2016-11-24T04:55:54.000Z,1110,exp
+1111,1111,100.44,"b'Hinckley, Ohio'",US,2016-11-24T04:55:57.000Z,1111,exp
+1112,1112,100.44,"b'Hinckley, Ohio'",US,2016-11-24T04:56:08.000Z,1112,exp
+1113,1113,12.95,"b'Pompano Beach, Florida'",US,2016-11-24T04:56:10.000Z,1113,exp
+1114,1114,240,"b'Cupertino, California'",US,2016-11-24T04:56:26.000Z,1114,exp
+1115,1115,511.89,"b'Jacksonville, Oregon'",US,2016-11-24T04:56:28.000Z,1115,exp
+1116,1116,96.16,b'Multiple Locations',US,2016-11-24T04:56:29.000Z,1116,exp
+1117,1117,100.44,"b'Hinckley, Ohio'",US,2016-11-24T04:56:44.000Z,1117,exp
+1118,1118,100.44,"b'Hinckley, Ohio'",US,2016-11-24T04:56:56.000Z,1118,exp
+1119,1119,2,"b'Portland, Oregon'",US,2016-11-24T04:57:08.000Z,1119,exp
+1120,1120,104.56,b'Multiple Locations',US,2016-11-24T04:57:11.000Z,1120,exp
+1121,1121,16.99,"b'Downey, California'",US,2016-11-24T04:57:15.000Z,1121,exp
+1122,1122,10.95,"b'Katy, Texas'",US,2016-11-24T04:57:21.000Z,1122,exp
+1123,1123,58,"b'Pelham, Alabama'",US,2016-11-24T04:57:27.000Z,1123,exp
+1124,1124,5.99,"b'Maricopa, Arizona'",US,2016-11-24T04:57:28.000Z,1124,exp
+1125,1125,6.6,"b'Middleburg, Florida'",US,2016-11-24T04:57:34.000Z,1125,exp
+1126,1126,32.25,"b'Maryland Heights, Missouri'",US,2016-11-24T04:57:35.000Z,1126,exp
+1127,1127,34,"b'Eugene, Oregon'",US,2016-11-24T04:57:39.000Z,1127,exp
+1128,1128,15.79,"b'Halifax, Pennsylvania'",US,2016-11-24T04:57:45.000Z,1128,exp
+1129,1129,100.44,"b'Hinckley, Ohio'",US,2016-11-24T04:58:03.000Z,1129,exp
+1130,1130,72.76,b'Multiple Locations',US,2016-11-24T04:58:04.000Z,1130,exp
+1131,1131,30,"b'Henderson, Nevada'",US,2016-11-24T04:58:04.000Z,1131,exp
+1132,1132,72,"b'Humboldt, Tennessee'",US,2016-11-24T04:58:06.000Z,1132,exp
+1133,1133,11.99,"b'Quincy, Florida'",US,2016-11-24T04:58:06.000Z,1133,exp
+1134,1134,11.39,"b'Durham, North Carolina'",US,2016-11-24T04:58:07.000Z,1134,exp
+1135,1135,100.44,"b'Hinckley, Ohio'",US,2016-11-24T04:58:14.000Z,1135,exp
+1136,1136,69.99,"b'Edmond, Oklahoma'",US,2016-11-24T04:58:16.000Z,1136,exp
+1137,1137,369.99,"b'Murfreesboro, Tennessee'",US,2016-11-24T04:58:21.000Z,1137,exp
+1138,1138,36.99,"b'Murfreesboro, Tennessee'",US,2016-11-24T04:58:21.000Z,1138,exp
+1139,1139,2.5,"b'Wheelersburg, Ohio'",US,2016-11-24T04:58:22.000Z,1139,exp
+1140,1140,44.99,"b'Rio Rancho, New Mexico'",US,2016-11-24T04:58:36.000Z,1140,exp
+1141,1141,57.45,"b'Chicago, Illinois'",US,2016-11-24T04:58:40.000Z,1141,exp
+1142,1142,23,"b'Carrollton, Texas'",US,2016-11-24T04:58:44.000Z,1142,exp
+1143,1143,24.95,"b'Katy, Texas'",US,2016-11-24T04:58:54.000Z,1143,exp
+1144,1144,72,"b'Humboldt, Tennessee'",US,2016-11-24T04:58:54.000Z,1144,exp
+1145,1145,28.79,"b'Duquesne, Pennsylvania'",US,2016-11-24T04:58:57.000Z,1145,exp
+1146,1146,499,"b'Riverside, California'",US,2016-11-24T04:59:11.000Z,1146,exp
+1147,1147,30.01,"b'Oswego, Illinois'",US,2016-11-24T04:59:21.000Z,1147,exp
+1148,1148,100.44,"b'Hinckley, Ohio'",US,2016-11-24T04:59:22.000Z,1148,exp
+1149,1149,29.01,"b'Oswego, Illinois'",US,2016-11-24T04:59:22.000Z,1149,exp
+1150,1150,22,"b'Oswego, Illinois'",US,2016-11-24T04:59:22.000Z,1150,exp
+1151,1151,17.95,"b'Pompano Beach, Florida'",US,2016-11-24T04:59:32.000Z,1151,exp
+1152,1152,100.44,"b'Hinckley, Ohio'",US,2016-11-24T04:59:32.000Z,1152,exp
+1153,1153,32.25,"b'Maryland Heights, Missouri'",US,2016-11-24T04:59:42.000Z,1153,exp
+1154,1154,328.95,"b'Akron, Ohio'",US,2016-11-24T04:59:42.000Z,1154,exp
+1155,1155,280,"b'Cupertino, California'",US,2016-11-24T04:59:52.000Z,1155,exp
+1156,1156,24.99,"b'Milwaukee, Wisconsin'",US,2016-11-24T05:00:17.000Z,1156,exp
+1157,1157,34.99,"b'Marietta, Georgia'",US,2016-11-24T05:00:17.000Z,1157,exp
+1158,1158,10,"b'Kansas City, Missouri'",US,2016-11-24T05:00:25.000Z,1158,exp
+1159,1159,17.07,"b'Pompano Beach, Florida'",US,2016-11-24T05:00:27.000Z,1159,exp
+1160,1160,100.44,"b'Hinckley, Ohio'",US,2016-11-24T05:00:32.000Z,1160,exp
+1161,1161,100.44,"b'Hinckley, Ohio'",US,2016-11-24T05:01:15.000Z,1161,exp
+1162,1162,11.95,"b'San Jose, California'",US,2016-11-24T05:01:15.000Z,1162,exp
+1163,1163,4.99,"b'HONOLULU, HAWAII'",US,2016-11-24T05:01:20.000Z,1163,exp
+1164,1164,39.95,"b'Diamond Bar, California'",US,2016-11-24T05:01:21.000Z,1164,exp
+1165,1165,6.99,"b'Berlin Center, Ohio'",US,2016-11-24T05:01:21.000Z,1165,exp
+1166,1166,100.44,"b'Hinckley, Ohio'",US,2016-11-24T05:01:26.000Z,1166,exp
+1167,1167,7.99,"b'Yucaipa, California'",US,2016-11-24T05:01:26.000Z,1167,exp
+1168,1168,16.5,"b'Dublin, Ohio'",US,2016-11-24T05:01:38.000Z,1168,exp
+1169,1169,11.11,"b'Shelbyville, Tennessee'",US,2016-11-24T05:01:39.000Z,1169,exp
+1170,1170,5.99,b'89434',US,2016-11-24T05:02:03.000Z,1170,exp
+1171,1171,5.99,b'89434',US,2016-11-24T05:02:08.000Z,1171,exp
+1172,1172,22.95,"b'Pompano Beach, Florida'",US,2016-11-24T05:02:14.000Z,1172,exp
+1173,1173,23.95,"b'Katy, Texas'",US,2016-11-24T05:02:19.000Z,1173,exp
+1174,1174,144,b'Multiple Locations',US,2016-11-24T05:02:20.000Z,1174,exp
+1175,1175,72,"b'Humboldt, Tennessee'",US,2016-11-24T05:02:23.000Z,1175,exp
+1176,1176,22,"b'Royal, Arkansas'",US,2016-11-24T05:02:29.000Z,1176,exp
+1177,1177,20,"b'Royal, Arkansas'",US,2016-11-24T05:02:29.000Z,1177,exp
+1178,1178,45,"b'Grayslake, Illinois'",US,2016-11-24T05:02:31.000Z,1178,exp
+1179,1179,15.99,"b'Houston, Texas'",US,2016-11-24T05:02:32.000Z,1179,exp
+1180,1180,15,"b""Coeur d'Alene, Idaho""",US,2016-11-24T05:02:39.000Z,1180,exp
+1181,1181,170,"b'San Luis Obispo, California'",US,2016-11-24T05:02:41.000Z,1181,exp
+1182,1182,149.99,"b'New Waterford, Ohio'",US,2016-11-24T05:02:41.000Z,1182,exp
+1183,1183,100.44,"b'Hinckley, Ohio'",US,2016-11-24T05:02:42.000Z,1183,exp
+1184,1184,44.99,"b'Cincinnati, Ohio'",US,2016-11-24T05:02:46.000Z,1184,exp
+1185,1185,100.44,"b'Hinckley, Ohio'",US,2016-11-24T05:02:51.000Z,1185,exp
+1186,1186,30,"b'Arvada, Colorado'",US,2016-11-24T05:02:51.000Z,1186,exp
+1187,1187,90.92,b'Multiple Locations',US,2016-11-24T05:02:57.000Z,1187,exp
+1188,1188,100.44,"b'Hinckley, Ohio'",US,2016-11-24T05:03:14.000Z,1188,exp
+1189,1189,9.99,"b'Detroit, Michigan'",US,2016-11-24T05:03:31.000Z,1189,exp
+1190,1190,23.95,"b'Brick, New Jersey'",US,2016-11-24T05:03:35.000Z,1190,exp
+1191,1191,100.44,"b'Hinckley, Ohio'",US,2016-11-24T05:03:36.000Z,1191,exp
+1192,1192,32.99,"b'McKenzie, Tennessee'",US,2016-11-24T05:03:53.000Z,1192,exp
+1193,1193,10.99,"b'Merrillville, Indiana'",US,2016-11-24T05:03:56.000Z,1193,exp
+1194,1194,163.5,"b'Dallas, Texas'",US,2016-11-24T05:04:19.000Z,1194,exp
+1195,1195,69.81,b'Multiple Locations',US,2016-11-24T05:04:23.000Z,1195,exp
+1196,1196,19.99,"b'Prospect Heights, Illinois'",US,2016-11-24T05:04:25.000Z,1196,exp
+1197,1197,100.44,"b'Hinckley, Ohio'",US,2016-11-24T05:04:30.000Z,1197,exp
+1198,1198,17,"b'Henderson, Nevada'",US,2016-11-24T05:04:32.000Z,1198,exp
+1199,1199,14.99,"b'Aurora, Colorado'",US,2016-11-24T05:04:35.000Z,1199,exp
+1200,1200,100.44,"b'Hinckley, Ohio'",US,2016-11-24T05:04:41.000Z,1200,exp
+1201,1201,7.99,"b'Huntington Station, New York'",US,2016-11-24T05:04:50.000Z,1201,exp
+1202,1202,0.99,"b'Upland, California'",US,2016-11-25T05:00:00.000Z,1202,exp
+1203,1203,72,"b'Humboldt, Tennessee'",US,2016-11-24T05:05:00.000Z,1203,exp
+1204,1204,100.44,"b'Hinckley, Ohio'",US,2016-11-24T05:05:04.000Z,1204,exp
+1205,1205,100.44,"b'Hinckley, Ohio'",US,2016-11-24T05:05:15.000Z,1205,exp
+1206,1206,274.95,"b'Canton, Georgia'",US,2016-11-24T05:05:33.000Z,1206,exp
+1207,1207,100.44,"b'Hinckley, Ohio'",US,2016-11-24T05:05:45.000Z,1207,exp
+1208,1208,8.99,"b'Detroit, Michigan'",US,2016-11-24T05:05:50.000Z,1208,exp
+1209,1209,78.81,b'Multiple Locations',US,2016-11-24T05:05:52.000Z,1209,exp
+1210,1210,1549,"b'Greenville, South Carolina'",US,2016-11-24T05:06:03.000Z,1210,exp
+1211,1211,6.65,"b'Ontario, California'",US,2016-11-24T05:06:08.000Z,1211,exp
+1212,1212,100.44,"b'Hinckley, Ohio'",US,2016-11-24T05:06:17.000Z,1212,exp
+1213,1213,39.99,"b'New City, New York'",US,2016-11-24T05:06:17.000Z,1213,exp
+1214,1214,10,"b'Wichita, Kansas'",US,2016-11-24T05:06:21.000Z,1214,exp
+1215,1215,39.99,"b'Ardmore, Oklahoma'",US,2016-11-24T05:06:23.000Z,1215,exp
+1216,1216,26.17,"b'Dayton, New Jersey'",US,2016-11-24T05:06:25.000Z,1216,exp
+1217,1217,49.46,b'Multiple Locations',US,2016-11-24T05:06:31.000Z,1217,exp
+1218,1218,246.5,"b'Dallas, Texas'",US,2016-11-24T05:06:32.000Z,1218,exp
+1219,1219,2,"b'Orlando, Florida'",US,2016-11-24T05:06:35.000Z,1219,exp
+1220,1220,59,"b'Feasterville-Trevose, Pennsylvania'",US,2016-11-24T05:06:43.000Z,1220,exp
+1221,1221,547.31,"b'Beverly Hills, California'",US,2016-11-24T05:06:48.000Z,1221,exp
+1222,1222,3.99,"b'Lake Villa, Illinois'",US,2016-11-24T05:06:53.000Z,1222,exp
+1223,1223,23.99,"b'San Diego, California'",US,2016-11-24T05:07:05.000Z,1223,exp
+1224,1224,100.44,"b'Hinckley, Ohio'",US,2016-11-24T05:07:11.000Z,1224,exp
+1225,1225,280.34,b'Multiple Locations',US,2016-11-24T05:07:14.000Z,1225,exp
+1226,1226,13,"b'Henderson, Nevada'",US,2016-11-24T05:07:26.000Z,1226,exp
+1227,1227,19.99,"b'South Pittsburg, Tennessee'",US,2016-11-24T05:07:27.000Z,1227,exp
+1228,1228,35,b'USA',US,2016-11-24T05:07:40.000Z,1228,exp
+1229,1229,645,"b'Renton, Washington'",US,2016-11-24T05:07:42.000Z,1229,exp
+1230,1230,72,"b'Humboldt, Tennessee'",US,2016-11-24T05:07:46.000Z,1230,exp
+1231,1231,14.99,"b'Queensbury, New York'",US,2016-11-24T05:07:51.000Z,1231,exp
+1232,1232,10.5,"b'Shingle Springs, California'",US,2016-11-24T05:08:10.000Z,1232,exp
+1233,1233,59,"b'Allen, Texas'",US,2016-11-24T05:08:10.000Z,1233,exp
+1234,1234,9.99,"b'Mora, Minnesota'",US,2016-11-24T05:08:21.000Z,1234,exp
+1235,1235,24.99,"b'Mount Dora, Florida'",US,2016-11-24T05:08:23.000Z,1235,exp
+1236,1236,50,"b'Los Angeles, California'",US,2016-11-24T05:08:26.000Z,1236,exp
+1237,1237,54.24,b'Multiple Locations',US,2016-11-24T05:08:34.000Z,1237,exp
+1238,1238,49.5,"b'New Haven, Connecticut'",US,2016-11-24T05:08:35.000Z,1238,exp
+1239,1239,8.5,"b'Cyril, Oklahoma'",US,2016-11-24T05:08:41.000Z,1239,exp
+1240,1240,8.5,"b'Cyril, Oklahoma'",US,2016-11-24T05:08:43.000Z,1240,exp
+1241,1241,16.99,"b'Bronx, New York'",US,2016-11-24T05:08:48.000Z,1241,exp
+1242,1242,14.5,"b'Sun Valley, California'",US,2016-11-24T05:08:50.000Z,1242,exp
+1243,1243,100.44,"b'Hinckley, Ohio'",US,2016-11-24T05:08:53.000Z,1243,exp
+1244,1244,132,"b'Austin, Texas'",US,2016-11-24T05:08:56.000Z,1244,exp
+1245,1245,29.99,"b'Los Angeles, CA'",US,2016-11-24T05:09:01.000Z,1245,exp
+1246,1246,23.99,"b'Springfield, Missouri'",US,2016-11-24T05:09:03.000Z,1246,exp
+1247,1247,15.99,"b'Snohomish, Washington'",US,2016-11-24T05:09:10.000Z,1247,exp
+1248,1248,5.9,"b'West Sacramento, California'",US,2016-11-24T05:09:11.000Z,1248,exp
+1249,1249,5.9,"b'West Sacramento, California'",US,2016-11-24T05:09:11.000Z,1249,exp
+1250,1250,1.99,"b'Upland, California'",US,2016-11-25T05:00:00.000Z,1250,exp
+1251,1251,40,"b'Lake Oswego, Oregon'",US,2016-11-24T05:09:17.000Z,1251,exp
+1252,1252,72,"b'Humboldt, Tennessee'",US,2016-11-24T05:09:33.000Z,1252,exp
+1253,1253,39.99,"b'Ardmore, Oklahoma'",US,2016-11-24T05:09:51.000Z,1253,exp
+1254,1254,100.44,"b'Hinckley, Ohio'",US,2016-11-24T05:09:54.000Z,1254,exp
+1255,1255,376.99,"b'Multiple Locations, BestBuy Warehouses'",US,2016-11-24T05:10:10.000Z,1255,exp
+1256,1256,7,"b'Yucaipa, California'",US,2016-11-24T05:10:17.000Z,1256,exp
+1257,1257,3.99,"b'Lake Villa, Illinois'",US,2016-11-24T05:10:20.000Z,1257,exp
+1258,1258,19.99,"b'Bronx, New York'",US,2016-11-24T05:10:26.000Z,1258,exp
+1259,1259,72.21,b'Multiple Locations',US,2016-11-24T05:10:37.000Z,1259,exp
+1260,1260,50,"b'Los Angeles, California'",US,2016-11-24T05:10:45.000Z,1260,exp
+1261,1261,1051.37,"b'Beverly Hills, California'",US,2016-11-24T05:10:46.000Z,1261,exp
+1262,1262,27.99,"b'Pacoima, California'",US,2016-11-24T05:10:47.000Z,1262,exp
+1263,1263,5,"b'Tucson, Arizona'",US,2016-11-24T05:10:51.000Z,1263,exp
+1264,1264,72,"b'Humboldt, Tennessee'",US,2016-11-24T05:10:59.000Z,1264,exp
+1265,1265,525,"b'Edison, New Jersey'",US,2016-11-24T05:11:03.000Z,1265,exp
+1266,1266,2675,"b'Edison, New Jersey'",US,2016-11-24T05:11:05.000Z,1266,exp
+1267,1267,24.99,"b'Austin, Texas'",US,2016-11-24T05:11:07.000Z,1267,exp
+1268,1268,432.98,b'Multiple Location',US,2016-11-24T05:11:10.000Z,1268,exp
+1269,1269,681.5,"b'Dallas, Texas'",US,2016-11-24T05:11:13.000Z,1269,exp
+1270,1270,6,"b'Portland, Oregon'",US,2016-11-24T05:11:27.000Z,1270,exp
+1271,1271,52.95,"b'East Wenatchee, Washington'",US,2016-11-24T05:11:28.000Z,1271,exp
+1272,1272,162.5,"b'Miami, Florida'",US,2016-11-24T05:11:34.000Z,1272,exp
+1273,1273,10.75,"b'Makawao, Hawaii'",US,2016-11-24T05:11:40.000Z,1273,exp
+1274,1274,39.97,"b'Middlesboro, Kentucky'",US,2016-11-24T05:11:45.000Z,1274,exp
+1275,1275,14.99,"b'Queensbury, New York'",US,2016-11-24T05:11:48.000Z,1275,exp
+1276,1276,6.99,"b'Tucson, Arizona'",US,2016-11-24T05:11:54.000Z,1276,exp
+1277,1277,18,"b'Sherman Oaks, California'",US,2016-11-24T05:11:59.000Z,1277,exp
+1278,1278,100.44,"b'Hinckley, Ohio'",US,2016-11-24T05:12:09.000Z,1278,exp
+1279,1279,72,"b'Humboldt, Tennessee'",US,2016-11-24T05:12:13.000Z,1279,exp
+1280,1280,5.5,"b'West Sacramento, California'",US,2016-11-24T05:12:15.000Z,1280,exp
+1281,1281,4.8,"b'West Sacramento, California'",US,2016-11-24T05:12:15.000Z,1281,exp
+1282,1282,15,"b'Elmira, New York'",US,2016-11-24T05:12:19.000Z,1282,exp
+1283,1283,14.5,"b'Glendale, California'",US,2016-11-24T05:12:21.000Z,1283,exp
+1284,1284,6,"b'Paris, Tennessee'",US,2016-11-24T05:12:26.000Z,1284,exp
+1285,1285,42,"b'North Hollywood, California'",US,2016-11-24T05:12:32.000Z,1285,exp
+1286,1286,5,"b'Tucson, Arizona'",US,2016-11-24T05:12:46.000Z,1286,exp
+1287,1287,35,b'USA',US,2016-11-24T05:13:50.000Z,1287,exp
+1288,1288,112.58,"b'Hinckley, Ohio'",US,2016-11-24T05:13:51.000Z,1288,exp
+1289,1289,35,"b'La Jolla, California'",US,2016-11-24T05:13:58.000Z,1289,exp
+1290,1290,18,"b'La Jolla, California'",US,2016-11-24T05:13:58.000Z,1290,exp
+1291,1291,112.58,"b'Hinckley, Ohio'",US,2016-11-24T05:14:01.000Z,1291,exp
+1292,1292,25,"b'Portland, Oregon'",US,2016-11-24T05:14:03.000Z,1292,exp
+1293,1293,7.99,"b'Indianapolis, Indiana'",US,2016-11-24T05:14:08.000Z,1293,exp
+1294,1294,295,"b'Seattle, Washington'",US,2016-11-24T05:14:16.000Z,1294,exp
+1295,1295,112.58,"b'Hinckley, Ohio'",US,2016-11-24T05:14:22.000Z,1295,exp
+1296,1296,46.9,b'Multiple Locations',US,2016-11-24T05:14:24.000Z,1296,exp
+1297,1297,23.99,"b'Winter Garden, Florida'",US,2016-11-24T05:14:28.000Z,1297,exp
+1298,1298,25.99,"b'Bossier City, Louisiana'",US,2016-11-24T05:14:41.000Z,1298,exp
+1299,1299,150,"b'Sunnyvale, California'",US,2016-11-24T05:14:41.000Z,1299,exp
+1300,1300,49.99,"b'Ardmore, Oklahoma'",US,2016-11-24T05:14:56.000Z,1300,exp
+1301,1301,114.95,"b'Hinckley, Ohio'",US,2016-11-24T05:14:57.000Z,1301,exp
+1302,1302,26.57,b'usa',US,2016-11-24T05:14:57.000Z,1302,exp
+1303,1303,114.95,"b'Hinckley, Ohio'",US,2016-11-24T05:15:18.000Z,1303,exp
+1304,1304,1499.99,"b'Keene, New Hampshire'",US,2016-11-24T05:15:25.000Z,1304,exp
+1305,1305,9,"b'Sandersville, Georgia'",US,2016-11-24T05:15:30.000Z,1305,exp
+1306,1306,20,"b'Bergen, New York'",US,2016-11-24T05:15:31.000Z,1306,exp
+1307,1307,8.49,"b'Lake Villa, Illinois'",US,2016-11-24T05:15:39.000Z,1307,exp
+1308,1308,114.95,"b'Hinckley, Ohio'",US,2016-11-24T05:15:41.000Z,1308,exp
+1309,1309,7.99,"b'Detroit, Michigan'",US,2016-11-24T05:15:45.000Z,1309,exp
+1310,1310,114.95,"b'Hinckley, Ohio'",US,2016-11-24T05:15:52.000Z,1310,exp
+1311,1311,15,"b'Saugus, Massachusetts'",US,2016-11-24T05:15:52.000Z,1311,exp
+1312,1312,122.31,b'Multiple Locations',US,2016-11-24T05:15:54.000Z,1312,exp
+1313,1313,250,"b'Elmhurst, New York'",US,2016-11-24T05:15:54.000Z,1313,exp
+1314,1314,9.5,"b'Jacksonville Beach, Florida'",US,2016-11-24T05:15:59.000Z,1314,exp
+1315,1315,114.95,"b'Hinckley, Ohio'",US,2016-11-24T05:16:03.000Z,1315,exp
+1316,1316,59.99,"b'Brownsville, Pennsylvania'",US,2016-11-24T05:16:03.000Z,1316,exp
+1317,1317,79.8,"b'Hinckley, Ohio'",US,2016-11-24T05:16:14.000Z,1317,exp
+1318,1318,550,"b'Miami, Florida'",US,2016-11-24T05:16:19.000Z,1318,exp
+1319,1319,5,"b'Tucson, Arizona'",US,2016-11-24T05:16:34.000Z,1319,exp
+1320,1320,549,"b'Greenacres, Washington'",US,2016-11-24T05:16:41.000Z,1320,exp
+1321,1321,72,"b'Humboldt, Tennessee'",US,2016-11-24T05:16:42.000Z,1321,exp
+1322,1322,7.99,"b'Detroit, Michigan'",US,2016-11-24T05:16:44.000Z,1322,exp
+1323,1323,7,"b'Yucaipa, California'",US,2016-11-24T05:16:50.000Z,1323,exp
+1324,1324,3.74,"b'Baltimore, MD'",US,2016-11-24T05:16:51.000Z,1324,exp
+1325,1325,4,"b'Portland, Oregon'",US,2016-11-24T05:16:52.000Z,1325,exp
+1326,1326,79.8,"b'Hinckley, Ohio'",US,2016-11-24T05:16:57.000Z,1326,exp
+1327,1327,37.79,"b'Springville, Utah'",US,2016-11-24T05:17:00.000Z,1327,exp
+1328,1328,125,"b'New York, New York'",US,2016-11-24T05:17:16.000Z,1328,exp
+1329,1329,79.8,"b'Hinckley, Ohio'",US,2016-11-24T05:17:35.000Z,1329,exp
+1330,1330,29.99,"b'Mora, Minnesota'",US,2016-11-24T05:17:51.000Z,1330,exp
+1331,1331,29.99,"b'Mora, Minnesota'",US,2016-11-24T05:17:52.000Z,1331,exp
+1332,1332,14.99,"b'Newport, Tennessee'",US,2016-11-24T05:17:54.000Z,1332,exp
+1333,1333,60.23,b'Multiple Locations',US,2016-11-24T05:17:57.000Z,1333,exp
+1334,1334,5.6,"b'Reading, Pennsylvania'",US,2016-11-24T05:17:59.000Z,1334,exp
+1335,1335,159.95,"b'New York, New York'",US,2016-11-24T05:18:00.000Z,1335,exp
+1336,1336,49.95,"b'Lakewood, Ohio'",US,2016-11-24T05:18:07.000Z,1336,exp
+1337,1337,27.95,"b'Canton, Georgia'",US,2016-11-24T05:18:22.000Z,1337,exp
+1338,1338,5,"b'Tucson, Arizona'",US,2016-11-24T05:18:25.000Z,1338,exp
+1339,1339,39.47,"b'Parsippany, New Jersey'",US,2016-11-24T05:18:27.000Z,1339,exp
+1340,1340,35.99,"b'Virginia Beach, Virginia'",US,2016-11-24T05:18:30.000Z,1340,exp
+1341,1341,106.4,"b'Hinckley, Ohio'",US,2016-11-24T05:18:30.000Z,1341,exp
+1342,1342,12,"b'Houston, Texas'",US,2016-11-24T05:18:41.000Z,1342,exp
+1343,1343,14.97,"b'Williams, Oregon'",US,2016-11-24T05:18:53.000Z,1343,exp
+1344,1344,32.99,"b'Tulsa, OK'",US,2016-11-24T05:18:56.000Z,1344,exp
+1345,1345,98.8,"b'Hinckley, Ohio'",US,2016-11-24T05:19:03.000Z,1345,exp
+1346,1346,40,"b'Germantown, Tennessee'",US,2016-11-26T16:57:25.000Z,1346,exp
+1347,1347,219,"b'Saint Petersburg, Florida'",US,2016-11-24T05:19:18.000Z,1347,exp
+1348,1348,60,"b'Aiea, Hawaii'",US,2016-11-24T05:19:33.000Z,1348,exp
+1349,1349,7.5,"b'Canton, Georgia'",US,2016-11-24T05:19:41.000Z,1349,exp
+1350,1350,20,"b'Aberdeen, Maryland'",US,2016-11-24T05:19:42.000Z,1350,exp
+1351,1351,11,"b'Oxnard, California'",US,2016-11-24T05:19:55.000Z,1351,exp
+1352,1352,7.99,"b'Lakewood, Ohio'",US,2016-11-24T05:20:01.000Z,1352,exp
+1353,1353,295,"b'South San Francisco, California'",US,2016-11-24T05:20:12.000Z,1353,exp
+1354,1354,33.45,"b'Tulsa, OK'",US,2016-11-24T05:20:18.000Z,1354,exp
+1355,1355,106.4,"b'Hinckley, Ohio'",US,2016-11-24T05:20:24.000Z,1355,exp
+1356,1356,16.49,"b'Blue Springs, Missouri'",US,2016-11-24T05:20:24.000Z,1356,exp
+1357,1357,169.95,"b'Shelby, North Carolina'",US,2016-11-24T05:20:30.000Z,1357,exp
+1358,1358,106.4,"b'Hinckley, Ohio'",US,2016-11-24T05:20:35.000Z,1358,exp
+1359,1359,35,"b'Charlotte, North Carolina'",US,2016-11-24T05:20:39.000Z,1359,exp
+1360,1360,4,"b'Irvington, Alabama'",US,2016-11-24T05:20:41.000Z,1360,exp
+1361,1361,106.4,"b'Hinckley, Ohio'",US,2016-11-24T05:20:56.000Z,1361,exp
+1362,1362,54.99,b'New Hampshire',US,2016-11-24T05:21:02.000Z,1362,exp
+1363,1363,11.95,"b'San Jose, California'",US,2016-11-24T05:21:03.000Z,1363,exp
+1364,1364,74.99,"b'Los Angeles, California'",US,2016-11-24T05:21:09.000Z,1364,exp
+1365,1365,106.4,"b'Hinckley, Ohio'",US,2016-11-24T05:21:33.000Z,1365,exp
+1366,1366,11,"b'Oxnard, California'",US,2016-11-24T05:21:33.000Z,1366,exp
+1367,1367,72,"b'Humboldt, Tennessee'",US,2016-11-24T05:21:56.000Z,1367,exp
+1368,1368,9.99,"b'Ellsworth, Maine'",US,2016-11-24T05:22:00.000Z,1368,exp
+1369,1369,295,"b'South San Francisco, California'",US,2016-11-24T05:22:03.000Z,1369,exp
+1370,1370,106.4,"b'Hinckley, Ohio'",US,2016-11-24T05:22:15.000Z,1370,exp
+1371,1371,199,"b'Glendale, California'",US,2016-11-24T05:22:23.000Z,1371,exp
+1372,1372,7.99,"b'Detroit, Michigan'",US,2016-11-24T05:22:28.000Z,1372,exp
+1373,1373,42,"b'San Luis Obispo, California'",US,2016-11-24T05:22:37.000Z,1373,exp
+1374,1374,35,"b'Philadelphia, Pennsylvania'",US,2016-11-24T05:22:47.000Z,1374,exp
+1375,1375,79.99,"b'Little Elm, Texas'",US,2016-11-24T05:22:47.000Z,1375,exp
+1376,1376,74,"b'Lewiston, Idaho'",US,2016-11-24T05:22:48.000Z,1376,exp
+1377,1377,106.4,"b'Hinckley, Ohio'",US,2016-11-24T05:23:04.000Z,1377,exp
+1378,1378,72,"b'Humboldt, Tennessee'",US,2016-11-24T05:23:11.000Z,1378,exp
+1379,1379,23.99,b'CA',US,2016-11-24T05:23:14.000Z,1379,exp
+1380,1380,3.99,"b'Lake Villa, Illinois'",US,2016-11-24T05:23:19.000Z,1380,exp
+1381,1381,38,"b'Topeka, Kansas'",US,2016-11-24T05:23:23.000Z,1381,exp
+1382,1382,5.99,"b'Austin, Texas'",US,2016-11-24T05:23:31.000Z,1382,exp
+1383,1383,29.99,"b'Concord, California'",US,2016-11-24T05:23:50.000Z,1383,exp
+1384,1384,34.99,"b'San Diego, California'",US,2016-11-24T05:23:56.000Z,1384,exp
+1385,1385,649.9,"b'Westland, Michigan'",US,2016-11-24T05:24:05.000Z,1385,exp
+1386,1386,39.99,"b'Soquel, California'",US,2016-11-24T05:24:13.000Z,1386,exp
+1387,1387,16.49,"b'Blue Springs, Missouri'",US,2016-11-24T05:24:21.000Z,1387,exp
+1388,1388,16.99,"b'Savannah, Georgia'",US,2016-11-24T05:24:35.000Z,1388,exp
+1389,1389,11.99,"b'Huntersville, North Carolina'",US,2016-11-24T05:24:40.000Z,1389,exp
+1390,1390,9.95,"b'Surprise, Arizona'",US,2016-11-24T05:24:46.000Z,1390,exp
+1391,1391,12.95,"b'Surprise, Arizona'",US,2016-11-24T05:24:46.000Z,1391,exp
+1392,1392,5.95,"b'Surprise, Arizona'",US,2016-11-24T05:24:46.000Z,1392,exp
+1393,1393,399.99,"b'Surprise, Arizona'",US,2016-11-24T05:24:45.000Z,1393,exp
+1394,1394,9.95,"b'Surprise, Arizona'",US,2016-11-24T05:24:46.000Z,1394,exp
+1395,1395,12.95,"b'Surprise, Arizona'",US,2016-11-24T05:24:46.000Z,1395,exp
+1396,1396,11,"b'Oxnard, California'",US,2016-11-24T05:24:46.000Z,1396,exp
+1397,1397,27.99,"b'Pacoima, California'",US,2016-11-24T05:24:54.000Z,1397,exp
+1398,1398,87.13,"b'Hinckley, Ohio'",US,2016-11-24T05:24:56.000Z,1398,exp
+>>>>>>> df9bbfd486fd1721ef9aa82f490911ce4a35d67d
